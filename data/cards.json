@@ -1,0 +1,2502 @@
+[
+  {
+    "_id": "6a408e255b25da323f297d94",
+    "userId": "6a408d8f5b25da323f297d93",
+    "playerId": 1,
+    "playerName": "Kylian Mbappe",
+    "rarity": "Common",
+    "image": "assets/images/common/eliesse-ben-seghir.png",
+    "serial": "SR-00000001",
+    "obtainedAt": "2026-06-28T02:59:49.532000"
+  },
+  {
+    "_id": "6a408e255b25da323f297d95",
+    "userId": "6a408d8f5b25da323f297d93",
+    "playerId": 1,
+    "playerName": "Kylian Mbappe",
+    "rarity": "Common",
+    "image": "assets/images/common/eliesse-ben-seghir.png",
+    "serial": "SR-00000002",
+    "obtainedAt": "2026-06-28T02:59:49.619000"
+  },
+  {
+    "_id": "6a408e255b25da323f297d96",
+    "userId": "6a408d8f5b25da323f297d93",
+    "playerId": 1,
+    "playerName": "Kylian Mbappe",
+    "rarity": "Common",
+    "image": "assets/images/common/eliesse-ben-seghir.png",
+    "serial": "SR-00000003",
+    "obtainedAt": "2026-06-28T02:59:49.622000"
+  },
+  {
+    "_id": "6a408e255b25da323f297d97",
+    "userId": "6a408d8f5b25da323f297d93",
+    "playerId": 1,
+    "playerName": "Kylian Mbappe",
+    "rarity": "Common",
+    "image": "assets/images/common/eliesse-ben-seghir.png",
+    "serial": "SR-00000004",
+    "obtainedAt": "2026-06-28T02:59:49.627000"
+  },
+  {
+    "_id": "6a408e255b25da323f297d98",
+    "userId": "6a408d8f5b25da323f297d93",
+    "playerId": 1,
+    "playerName": "Kylian Mbappe",
+    "rarity": "Common",
+    "image": "assets/images/common/eliesse-ben-seghir.png",
+    "serial": "SR-00000005",
+    "obtainedAt": "2026-06-28T02:59:49.631000"
+  },
+  {
+    "_id": "6a409a09af2f53ca882ea591",
+    "userId": "6a4094918f1f8d428376d6a3",
+    "playerId": 15,
+    "playerName": "Igor Paixão",
+    "rarity": "Common",
+    "image": "assets/images/common/igor-paixao.png",
+    "serial": "SR-00000006",
+    "obtainedAt": "2026-06-28T03:50:33.434000"
+  },
+  {
+    "_id": "6a409a09af2f53ca882ea592",
+    "userId": "6a4094918f1f8d428376d6a3",
+    "playerId": 13,
+    "playerName": "Morten Hjulmand",
+    "rarity": "Common",
+    "image": "assets/images/common/morten-hjulmand.png",
+    "serial": "SR-00000007",
+    "obtainedAt": "2026-06-28T03:50:33.443000"
+  },
+  {
+    "_id": "6a409a09af2f53ca882ea593",
+    "userId": "6a4094918f1f8d428376d6a3",
+    "playerId": 17,
+    "playerName": "Ronald Araújo",
+    "rarity": "Common",
+    "image": "assets/images/common/ronald-araujo.png",
+    "serial": "SR-00000008",
+    "obtainedAt": "2026-06-28T03:50:33.454000"
+  },
+  {
+    "_id": "6a409a09af2f53ca882ea594",
+    "userId": "6a4094918f1f8d428376d6a3",
+    "playerId": 47,
+    "playerName": "Victor Osimhen",
+    "rarity": "Rare",
+    "image": "assets/images/rare/robert-lewandowski.jpeg",
+    "serial": "SR-00000009",
+    "obtainedAt": "2026-06-28T03:50:33.461000"
+  },
+  {
+    "_id": "6a409a09af2f53ca882ea595",
+    "userId": "6a4094918f1f8d428376d6a3",
+    "playerId": 43,
+    "playerName": "Julián Álvarez",
+    "rarity": "Rare",
+    "image": "assets/images/rare/william-saliba.jpeg",
+    "serial": "SR-00000010",
+    "obtainedAt": "2026-06-28T03:50:33.466000"
+  },
+  {
+    "_id": "6a460a7e4cd70a076d1dfbae",
+    "userId": "6a4094918f1f8d428376d6a3",
+    "playerId": 45,
+    "playerName": "Robert Lewandowski",
+    "rarity": "Rare",
+    "image": "assets/images/rare/julian-alvarez.jpeg",
+    "serial": "SR-00000011",
+    "obtainedAt": "2026-07-02T06:51:42.089000"
+  },
+  {
+    "_id": "6a460a7e4cd70a076d1dfbaf",
+    "userId": "6a4094918f1f8d428376d6a3",
+    "playerId": 66,
+    "playerName": "Vinícius Júnior",
+    "rarity": "Epic",
+    "image": "assets/images/epic/thibaut-courtois.webp",
+    "serial": "SR-00000012",
+    "obtainedAt": "2026-07-02T06:51:42.137000"
+  },
+  {
+    "_id": "6a460a7e4cd70a076d1dfbb0",
+    "userId": "6a4094918f1f8d428376d6a3",
+    "playerId": 3,
+    "playerName": "Arda Güler",
+    "rarity": "Rare",
+    "image": "assets/images/rare/arda-guler.png",
+    "serial": "SR-00000013",
+    "obtainedAt": "2026-07-02T06:51:42.140000"
+  },
+  {
+    "_id": "6a460a7e4cd70a076d1dfbb1",
+    "userId": "6a4094918f1f8d428376d6a3",
+    "playerId": 20,
+    "playerName": "Alexander Isak",
+    "rarity": "Uncommon",
+    "image": "assets/images/uncommon/alexander-isak.png",
+    "serial": "SR-00000014",
+    "obtainedAt": "2026-07-02T06:51:42.143000"
+  },
+  {
+    "_id": "6a460a7e4cd70a076d1dfbb2",
+    "userId": "6a4094918f1f8d428376d6a3",
+    "playerId": 14,
+    "playerName": "Ismaël Bennacer",
+    "rarity": "Common",
+    "image": "assets/images/common/ismael-bennacer.png",
+    "serial": "SR-00000015",
+    "obtainedAt": "2026-07-02T06:51:42.146000"
+  },
+  {
+    "_id": "6a460a914cd70a076d1dfbb3",
+    "userId": "6a4094918f1f8d428376d6a3",
+    "playerId": 11,
+    "playerName": "Piero Hincapié",
+    "rarity": "Common",
+    "image": "assets/images/common/piero-hincapie.png",
+    "serial": "SR-00000016",
+    "obtainedAt": "2026-07-02T06:52:01.760000"
+  },
+  {
+    "_id": "6a460a914cd70a076d1dfbb4",
+    "userId": "6a4094918f1f8d428376d6a3",
+    "playerId": 28,
+    "playerName": "Federico Dimarco",
+    "rarity": "Uncommon",
+    "image": "assets/images/uncommon/federico-dimarco.webp",
+    "serial": "SR-00000017",
+    "obtainedAt": "2026-07-02T06:52:01.768000"
+  },
+  {
+    "_id": "6a460a914cd70a076d1dfbb5",
+    "userId": "6a4094918f1f8d428376d6a3",
+    "playerId": 40,
+    "playerName": "Theo Hernández",
+    "rarity": "Rare",
+    "image": "assets/images/rare/achraf-hakimi.jpeg",
+    "serial": "SR-00000018",
+    "obtainedAt": "2026-07-02T06:52:01.777000"
+  },
+  {
+    "_id": "6a460a914cd70a076d1dfbb6",
+    "userId": "6a4094918f1f8d428376d6a3",
+    "playerId": 48,
+    "playerName": "Cole Palmer",
+    "rarity": "Rare",
+    "image": "assets/images/rare/omar-marmoush.jpeg",
+    "serial": "SR-00000019",
+    "obtainedAt": "2026-07-02T06:52:01.785000"
+  },
+  {
+    "_id": "6a460a914cd70a076d1dfbb7",
+    "userId": "6a4094918f1f8d428376d6a3",
+    "playerId": 42,
+    "playerName": "Rúben Dias",
+    "rarity": "Rare",
+    "image": "assets/images/rare/theo-hernandez.jpeg",
+    "serial": "SR-00000020",
+    "obtainedAt": "2026-07-02T06:52:01.794000"
+  },
+  {
+    "_id": "6a4618516adc9e7c4cb6c5b3",
+    "userId": "6a4094918f1f8d428376d6a3",
+    "playerId": 27,
+    "playerName": "Alessandro Bastoni",
+    "rarity": "Uncommon",
+    "image": "assets/images/uncommon/alessandro-bastoni.webp",
+    "serial": "SR-00000021",
+    "obtainedAt": "2026-07-02T07:50:41.757000"
+  },
+  {
+    "_id": "6a4618516adc9e7c4cb6c5b4",
+    "userId": "6a4094918f1f8d428376d6a3",
+    "playerId": 65,
+    "playerName": "Lamine Yamal",
+    "rarity": "Epic",
+    "image": "assets/images/epic/alisson-becker.webp",
+    "serial": "SR-00000022",
+    "obtainedAt": "2026-07-02T07:50:41.768000"
+  },
+  {
+    "_id": "6a4618516adc9e7c4cb6c5b5",
+    "userId": "6a4094918f1f8d428376d6a3",
+    "playerId": 73,
+    "playerName": "Ousmane Dembélé",
+    "rarity": "Mythic",
+    "image": "assets/images/mythic/mohamed-salah.webp",
+    "serial": "SR-00000023",
+    "obtainedAt": "2026-07-02T07:50:41.776000"
+  },
+  {
+    "_id": "6a4618516adc9e7c4cb6c5b6",
+    "userId": "6a4094918f1f8d428376d6a3",
+    "playerId": 45,
+    "playerName": "Robert Lewandowski",
+    "rarity": "Rare",
+    "image": "assets/images/rare/julian-alvarez.jpeg",
+    "serial": "SR-00000024",
+    "obtainedAt": "2026-07-02T07:50:41.782000"
+  },
+  {
+    "_id": "6a4618516adc9e7c4cb6c5b7",
+    "userId": "6a4094918f1f8d428376d6a3",
+    "playerId": 59,
+    "playerName": "Virgil van Dijk",
+    "rarity": "Epic",
+    "image": "assets/images/epic/bruno-fernandes.webp",
+    "serial": "SR-00000025",
+    "obtainedAt": "2026-07-02T07:50:41.789000"
+  },
+  {
+    "_id": "6a4618776adc9e7c4cb6c5b8",
+    "userId": "6a460c124cd70a076d1dfbb8",
+    "playerId": 7,
+    "playerName": "João Gomes",
+    "rarity": "Common",
+    "image": "assets/images/common/joao-gomes.png",
+    "serial": "SR-00000026",
+    "obtainedAt": "2026-07-02T07:51:19.634000"
+  },
+  {
+    "_id": "6a4618776adc9e7c4cb6c5b9",
+    "userId": "6a460c124cd70a076d1dfbb8",
+    "playerId": 4,
+    "playerName": "Endrick",
+    "rarity": "Common",
+    "image": "assets/images/common/endrick.png",
+    "serial": "SR-00000027",
+    "obtainedAt": "2026-07-02T07:51:19.638000"
+  },
+  {
+    "_id": "6a4618776adc9e7c4cb6c5ba",
+    "userId": "6a460c124cd70a076d1dfbb8",
+    "playerId": 32,
+    "playerName": "Phil Foden",
+    "rarity": "Rare",
+    "image": "assets/images/rare/bukayo-saka.jpeg",
+    "serial": "SR-00000028",
+    "obtainedAt": "2026-07-02T07:51:19.641000"
+  },
+  {
+    "_id": "6a4618776adc9e7c4cb6c5bb",
+    "userId": "6a460c124cd70a076d1dfbb8",
+    "playerId": 23,
+    "playerName": "Alexis Mac Allister",
+    "rarity": "Uncommon",
+    "image": "assets/images/uncommon/alexis-mac-allister.png",
+    "serial": "SR-00000029",
+    "obtainedAt": "2026-07-02T07:51:19.643000"
+  },
+  {
+    "_id": "6a4618776adc9e7c4cb6c5bc",
+    "userId": "6a460c124cd70a076d1dfbb8",
+    "playerId": 30,
+    "playerName": "Mike Maignan",
+    "rarity": "Uncommon",
+    "image": "assets/images/uncommon/mike-maignan.webp",
+    "serial": "SR-00000030",
+    "obtainedAt": "2026-07-02T07:51:19.646000"
+  },
+  {
+    "_id": "6a4618b76adc9e7c4cb6c5bd",
+    "userId": "6a4094918f1f8d428376d6a3",
+    "playerId": 18,
+    "playerName": "Xavi Simons",
+    "rarity": "Uncommon",
+    "image": "assets/images/uncommon/xavi-simons.png",
+    "serial": "SR-00000031",
+    "obtainedAt": "2026-07-02T07:52:23.029000"
+  },
+  {
+    "_id": "6a4618b76adc9e7c4cb6c5be",
+    "userId": "6a4094918f1f8d428376d6a3",
+    "playerId": 16,
+    "playerName": "Jhon Lucumí",
+    "rarity": "Common",
+    "image": "assets/images/common/jhon-lucumi.png",
+    "serial": "SR-00000032",
+    "obtainedAt": "2026-07-02T07:52:23.036000"
+  },
+  {
+    "_id": "6a4618b76adc9e7c4cb6c5bf",
+    "userId": "6a4094918f1f8d428376d6a3",
+    "playerId": 19,
+    "playerName": "Désiré Doué",
+    "rarity": "Uncommon",
+    "image": "assets/images/uncommon/desire-doue.png",
+    "serial": "SR-00000033",
+    "obtainedAt": "2026-07-02T07:52:23.045000"
+  },
+  {
+    "_id": "6a4618b76adc9e7c4cb6c5c0",
+    "userId": "6a4094918f1f8d428376d6a3",
+    "playerId": 1,
+    "playerName": "Eliesse Ben Seghir",
+    "rarity": "Common",
+    "image": "assets/images/common/eliesse-ben-seghir.png",
+    "serial": "SR-00000034",
+    "obtainedAt": "2026-07-02T07:52:23.053000"
+  },
+  {
+    "_id": "6a4618b76adc9e7c4cb6c5c1",
+    "userId": "6a4094918f1f8d428376d6a3",
+    "playerId": 6,
+    "playerName": "Rasmus Højlund",
+    "rarity": "Common",
+    "image": "assets/images/common/rasmus-hojlund.png",
+    "serial": "SR-00000035",
+    "obtainedAt": "2026-07-02T07:52:23.060000"
+  },
+  {
+    "_id": "6a4618da6adc9e7c4cb6c5c2",
+    "userId": "6a4094918f1f8d428376d6a3",
+    "playerId": 45,
+    "playerName": "Robert Lewandowski",
+    "rarity": "Rare",
+    "image": "assets/images/rare/julian-alvarez.jpeg",
+    "serial": "SR-00000036",
+    "obtainedAt": "2026-07-02T07:52:58.230000"
+  },
+  {
+    "_id": "6a4618da6adc9e7c4cb6c5c3",
+    "userId": "6a4094918f1f8d428376d6a3",
+    "playerId": 42,
+    "playerName": "Rúben Dias",
+    "rarity": "Rare",
+    "image": "assets/images/rare/theo-hernandez.jpeg",
+    "serial": "SR-00000037",
+    "obtainedAt": "2026-07-02T07:52:58.233000"
+  },
+  {
+    "_id": "6a4618da6adc9e7c4cb6c5c4",
+    "userId": "6a4094918f1f8d428376d6a3",
+    "playerId": 20,
+    "playerName": "Alexander Isak",
+    "rarity": "Uncommon",
+    "image": "assets/images/uncommon/alexander-isak.png",
+    "serial": "SR-00000038",
+    "obtainedAt": "2026-07-02T07:52:58.235000"
+  },
+  {
+    "_id": "6a4618da6adc9e7c4cb6c5c5",
+    "userId": "6a4094918f1f8d428376d6a3",
+    "playerId": 7,
+    "playerName": "João Gomes",
+    "rarity": "Common",
+    "image": "assets/images/common/joao-gomes.png",
+    "serial": "SR-00000039",
+    "obtainedAt": "2026-07-02T07:52:58.238000"
+  },
+  {
+    "_id": "6a4618da6adc9e7c4cb6c5c6",
+    "userId": "6a4094918f1f8d428376d6a3",
+    "playerId": 20,
+    "playerName": "Alexander Isak",
+    "rarity": "Uncommon",
+    "image": "assets/images/uncommon/alexander-isak.png",
+    "serial": "SR-00000040",
+    "obtainedAt": "2026-07-02T07:52:58.241000"
+  },
+  {
+    "_id": "6a4619796adc9e7c4cb6c5c7",
+    "userId": "6a4094918f1f8d428376d6a3",
+    "playerId": 72,
+    "playerName": "Bukayo Saka",
+    "rarity": "Mythic",
+    "image": "assets/images/mythic/jude-bellingham.webp",
+    "serial": "SR-00000041",
+    "obtainedAt": "2026-07-02T07:55:37.552000"
+  },
+  {
+    "_id": "6a4619796adc9e7c4cb6c5c8",
+    "userId": "6a4094918f1f8d428376d6a3",
+    "playerId": 57,
+    "playerName": "Alisson Becker",
+    "rarity": "Epic",
+    "image": "assets/images/epic/pedri.webp",
+    "serial": "SR-00000042",
+    "obtainedAt": "2026-07-02T07:55:37.559000"
+  },
+  {
+    "_id": "6a4619796adc9e7c4cb6c5c9",
+    "userId": "6a4094918f1f8d428376d6a3",
+    "playerId": 31,
+    "playerName": "Gianluigi Donnarumma",
+    "rarity": "Uncommon",
+    "image": "assets/images/uncommon/gianluigi-donnarumma.webp",
+    "serial": "SR-00000043",
+    "obtainedAt": "2026-07-02T07:55:37.565000"
+  },
+  {
+    "_id": "6a4619796adc9e7c4cb6c5ca",
+    "userId": "6a4094918f1f8d428376d6a3",
+    "playerId": 13,
+    "playerName": "Morten Hjulmand",
+    "rarity": "Common",
+    "image": "assets/images/common/morten-hjulmand.png",
+    "serial": "SR-00000044",
+    "obtainedAt": "2026-07-02T07:55:37.574000"
+  },
+  {
+    "_id": "6a4619796adc9e7c4cb6c5cb",
+    "userId": "6a4094918f1f8d428376d6a3",
+    "playerId": 38,
+    "playerName": "Achraf Hakimi",
+    "rarity": "Rare",
+    "image": "assets/images/rare/rodrygo.jpeg",
+    "serial": "SR-00000045",
+    "obtainedAt": "2026-07-02T07:55:37.578000"
+  },
+  {
+    "_id": "6a48b4c27d20e2866aa55dde",
+    "userId": "6a4094918f1f8d428376d6a3",
+    "playerId": 25,
+    "playerName": "Bruno Guimarães",
+    "rarity": "Uncommon",
+    "image": "assets/images/uncommon/bruno-guimaraes.webp",
+    "serial": "SR-00000101",
+    "obtainedAt": "2026-07-04T07:22:42.190000"
+  },
+  {
+    "_id": "6a48b4c27d20e2866aa55ddf",
+    "userId": "6a4094918f1f8d428376d6a3",
+    "playerId": 22,
+    "playerName": "Marcus Thuram",
+    "rarity": "Uncommon",
+    "image": "assets/images/uncommon/marcus-thuram.png",
+    "serial": "SR-00000102",
+    "obtainedAt": "2026-07-04T07:22:42.273000"
+  },
+  {
+    "_id": "6a48b4c27d20e2866aa55de0",
+    "userId": "6a4094918f1f8d428376d6a3",
+    "playerId": 66,
+    "playerName": "Vinícius Júnior",
+    "rarity": "Epic",
+    "image": "assets/images/epic/thibaut-courtois.webp",
+    "serial": "SR-00000103",
+    "obtainedAt": "2026-07-04T07:22:42.280000"
+  },
+  {
+    "_id": "6a48b4c27d20e2866aa55de1",
+    "userId": "6a4094918f1f8d428376d6a3",
+    "playerId": 12,
+    "playerName": "Yunus Musah",
+    "rarity": "Common",
+    "image": "assets/images/common/yunus-musah.png",
+    "serial": "SR-00000104",
+    "obtainedAt": "2026-07-04T07:22:42.285000"
+  },
+  {
+    "_id": "6a48b4c27d20e2866aa55de2",
+    "userId": "6a4094918f1f8d428376d6a3",
+    "playerId": 3,
+    "playerName": "Arda Güler",
+    "rarity": "Rare",
+    "image": "assets/images/rare/arda-guler.png",
+    "serial": "SR-00000105",
+    "obtainedAt": "2026-07-04T07:22:42.289000"
+  },
+  {
+    "_id": "6a52df1517d303246ed53da4",
+    "userId": "6a4094918f1f8d428376d6a3",
+    "playerId": 20,
+    "playerName": "Alexander Isak",
+    "rarity": "Uncommon",
+    "image": "assets/images/uncommon/alexander-isak.png",
+    "serial": "SR-00000106",
+    "obtainedAt": "2026-07-12T00:25:57.368000"
+  },
+  {
+    "_id": "6a52df1517d303246ed53da5",
+    "userId": "6a4094918f1f8d428376d6a3",
+    "playerId": 22,
+    "playerName": "Marcus Thuram",
+    "rarity": "Uncommon",
+    "image": "assets/images/uncommon/marcus-thuram.png",
+    "serial": "SR-00000107",
+    "obtainedAt": "2026-07-12T00:25:57.380000"
+  },
+  {
+    "_id": "6a52df1517d303246ed53da6",
+    "userId": "6a4094918f1f8d428376d6a3",
+    "playerId": 37,
+    "playerName": "Martin Ødegaard",
+    "rarity": "Rare",
+    "image": "assets/images/rare/federico-valverde.jpeg",
+    "serial": "SR-00000108",
+    "obtainedAt": "2026-07-12T00:25:57.387000"
+  },
+  {
+    "_id": "6a52df1517d303246ed53da7",
+    "userId": "6a4094918f1f8d428376d6a3",
+    "playerId": 17,
+    "playerName": "Ronald Araújo",
+    "rarity": "Common",
+    "image": "assets/images/common/ronald-araujo.png",
+    "serial": "SR-00000109",
+    "obtainedAt": "2026-07-12T00:25:57.398000"
+  },
+  {
+    "_id": "6a52df1517d303246ed53da8",
+    "userId": "6a4094918f1f8d428376d6a3",
+    "playerId": 3,
+    "playerName": "Arda Güler",
+    "rarity": "Rare",
+    "image": "assets/images/rare/arda-guler.png",
+    "serial": "SR-00000110",
+    "obtainedAt": "2026-07-12T00:25:57.407000"
+  },
+  {
+    "_id": "6a55d4cff1d7657bac3fdd67",
+    "userId": "6a4094918f1f8d428376d6a3",
+    "playerId": 5,
+    "playerName": "Alejandro Garnacho",
+    "rarity": "Common",
+    "image": "assets/images/common/alejandro-garnacho.png",
+    "serial": "SR-00000111",
+    "obtainedAt": "2026-07-14T06:18:55.645000"
+  },
+  {
+    "_id": "6a55d4cff1d7657bac3fdd68",
+    "userId": "6a4094918f1f8d428376d6a3",
+    "playerId": 4,
+    "playerName": "Endrick",
+    "rarity": "Common",
+    "image": "assets/images/common/endrick.png",
+    "serial": "SR-00000112",
+    "obtainedAt": "2026-07-14T06:18:55.763000"
+  },
+  {
+    "_id": "6a55d4cff1d7657bac3fdd69",
+    "userId": "6a4094918f1f8d428376d6a3",
+    "playerId": 6,
+    "playerName": "Rasmus Højlund",
+    "rarity": "Common",
+    "image": "assets/images/common/rasmus-hojlund.png",
+    "serial": "SR-00000113",
+    "obtainedAt": "2026-07-14T06:18:55.771000"
+  },
+  {
+    "_id": "6a55d4cff1d7657bac3fdd6a",
+    "userId": "6a4094918f1f8d428376d6a3",
+    "playerId": 2,
+    "playerName": "Benjamin Šeško",
+    "rarity": "Common",
+    "image": "assets/images/common/benjamin-sesko.png",
+    "serial": "SR-00000114",
+    "obtainedAt": "2026-07-14T06:18:55.778000"
+  },
+  {
+    "_id": "6a55d4cff1d7657bac3fdd6b",
+    "userId": "6a4094918f1f8d428376d6a3",
+    "playerId": 14,
+    "playerName": "Ismaël Bennacer",
+    "rarity": "Common",
+    "image": "assets/images/common/ismael-bennacer.png",
+    "serial": "SR-00000115",
+    "obtainedAt": "2026-07-14T06:18:55.785000"
+  },
+  {
+    "_id": "6a55d844f1d7657bac3fdd6c",
+    "userId": "6a4094918f1f8d428376d6a3",
+    "playerId": 22,
+    "playerName": "Marcus Thuram",
+    "rarity": "Uncommon",
+    "image": "assets/images/uncommon/marcus-thuram.png",
+    "serial": "SR-00000116",
+    "obtainedAt": "2026-07-14T06:33:40.161000"
+  },
+  {
+    "_id": "6a55d844f1d7657bac3fdd6d",
+    "userId": "6a4094918f1f8d428376d6a3",
+    "playerId": 8,
+    "playerName": "Levi Colwill",
+    "rarity": "Common",
+    "image": "assets/images/common/levi-colwill.png",
+    "serial": "SR-00000117",
+    "obtainedAt": "2026-07-14T06:33:40.171000"
+  },
+  {
+    "_id": "6a55d844f1d7657bac3fdd6e",
+    "userId": "6a4094918f1f8d428376d6a3",
+    "playerId": 39,
+    "playerName": "Alphonso Davies",
+    "rarity": "Rare",
+    "image": "assets/images/rare/martin-odegaard.jpeg",
+    "serial": "SR-00000118",
+    "obtainedAt": "2026-07-14T06:33:40.184000"
+  },
+  {
+    "_id": "6a55d844f1d7657bac3fdd6f",
+    "userId": "6a4094918f1f8d428376d6a3",
+    "playerId": 30,
+    "playerName": "Mike Maignan",
+    "rarity": "Uncommon",
+    "image": "assets/images/uncommon/mike-maignan.webp",
+    "serial": "SR-00000119",
+    "obtainedAt": "2026-07-14T06:33:40.192000"
+  },
+  {
+    "_id": "6a55d844f1d7657bac3fdd70",
+    "userId": "6a4094918f1f8d428376d6a3",
+    "playerId": 31,
+    "playerName": "Gianluigi Donnarumma",
+    "rarity": "Uncommon",
+    "image": "assets/images/uncommon/gianluigi-donnarumma.webp",
+    "serial": "SR-00000120",
+    "obtainedAt": "2026-07-14T06:33:40.202000"
+  },
+  {
+    "_id": "6a56f16589cbca7628de6f83",
+    "userId": "6a56f05589cbca7628de6f81",
+    "playerId": 2,
+    "playerName": "Benjamin Šeško",
+    "rarity": "Common",
+    "image": "assets/images/common/benjamin-sesko.png",
+    "serial": "SR-00000046",
+    "obtainedAt": "2026-07-15T02:33:09.749000"
+  },
+  {
+    "_id": "6a56f16589cbca7628de6f84",
+    "userId": "6a56f05589cbca7628de6f81",
+    "playerId": 31,
+    "playerName": "Gianluigi Donnarumma",
+    "rarity": "Uncommon",
+    "image": "assets/images/uncommon/gianluigi-donnarumma.webp",
+    "serial": "SR-00000047",
+    "obtainedAt": "2026-07-15T02:33:09.778000"
+  },
+  {
+    "_id": "6a56f16589cbca7628de6f85",
+    "userId": "6a56f05589cbca7628de6f81",
+    "playerId": 40,
+    "playerName": "Theo Hernández",
+    "rarity": "Rare",
+    "image": "assets/images/rare/achraf-hakimi.jpeg",
+    "serial": "SR-00000048",
+    "obtainedAt": "2026-07-15T02:33:09.783000"
+  },
+  {
+    "_id": "6a56f16589cbca7628de6f86",
+    "userId": "6a56f05589cbca7628de6f81",
+    "playerId": 9,
+    "playerName": "Micky van de Ven",
+    "rarity": "Common",
+    "image": "assets/images/common/micky-van-de-ven.png",
+    "serial": "SR-00000049",
+    "obtainedAt": "2026-07-15T02:33:09.787000"
+  },
+  {
+    "_id": "6a56f16589cbca7628de6f87",
+    "userId": "6a56f05589cbca7628de6f81",
+    "playerId": 15,
+    "playerName": "Igor Paixão",
+    "rarity": "Common",
+    "image": "assets/images/common/igor-paixao.png",
+    "serial": "SR-00000050",
+    "obtainedAt": "2026-07-15T02:33:09.792000"
+  },
+  {
+    "_id": "6a5dc7a8dfc0af5a588cdf11",
+    "userId": "6a56f05589cbca7628de6f81",
+    "playerId": 7,
+    "playerName": "João Gomes",
+    "rarity": "Common",
+    "image": "assets/images/common/joao-gomes.png",
+    "serial": "SR-00000051",
+    "obtainedAt": "2026-07-20T07:00:56.476000"
+  },
+  {
+    "_id": "6a5dc7a8dfc0af5a588cdf12",
+    "userId": "6a56f05589cbca7628de6f81",
+    "playerId": 34,
+    "playerName": "Rafael Leão",
+    "rarity": "Rare",
+    "image": "assets/images/rare/phil-foden.jpeg",
+    "serial": "SR-00000052",
+    "obtainedAt": "2026-07-20T07:00:56.499000"
+  },
+  {
+    "_id": "6a5dc7a8dfc0af5a588cdf13",
+    "userId": "6a56f05589cbca7628de6f81",
+    "playerId": 49,
+    "playerName": "Nico Paz",
+    "rarity": "Rare",
+    "image": "assets/images/rare/victor-osimhen.jpeg",
+    "serial": "SR-00000053",
+    "obtainedAt": "2026-07-20T07:00:56.511000"
+  },
+  {
+    "_id": "6a5dc7a8dfc0af5a588cdf14",
+    "userId": "6a56f05589cbca7628de6f81",
+    "playerId": 73,
+    "playerName": "Ousmane Dembélé",
+    "rarity": "Mythic",
+    "image": "assets/images/mythic/mohamed-salah.webp",
+    "serial": "SR-00000054",
+    "obtainedAt": "2026-07-20T07:00:56.523000"
+  },
+  {
+    "_id": "6a5dc7a8dfc0af5a588cdf15",
+    "userId": "6a56f05589cbca7628de6f81",
+    "playerId": 25,
+    "playerName": "Bruno Guimarães",
+    "rarity": "Uncommon",
+    "image": "assets/images/uncommon/bruno-guimaraes.webp",
+    "serial": "SR-00000055",
+    "obtainedAt": "2026-07-20T07:00:56.531000"
+  },
+  {
+    "_id": "6a5dd3a45ec0566d2004138b",
+    "userId": "6a4094918f1f8d428376d6a3",
+    "playerId": 20,
+    "playerName": "Alexander Isak",
+    "rarity": "Uncommon",
+    "image": "assets/images/uncommon/alexander-isak.png",
+    "serial": "SR-00000121",
+    "obtainedAt": "2026-07-20T07:52:04.036000"
+  },
+  {
+    "_id": "6a5dd3a45ec0566d2004138c",
+    "userId": "6a4094918f1f8d428376d6a3",
+    "playerId": 42,
+    "playerName": "Rúben Dias",
+    "rarity": "Rare",
+    "image": "assets/images/rare/theo-hernandez.jpeg",
+    "serial": "SR-00000122",
+    "obtainedAt": "2026-07-20T07:52:04.046000"
+  },
+  {
+    "_id": "6a5dd3a45ec0566d2004138d",
+    "userId": "6a4094918f1f8d428376d6a3",
+    "playerId": 29,
+    "playerName": "Jules Koundé",
+    "rarity": "Uncommon",
+    "image": "assets/images/uncommon/jules-kounde.webp",
+    "serial": "SR-00000123",
+    "obtainedAt": "2026-07-20T07:52:04.054000"
+  },
+  {
+    "_id": "6a5dd3a45ec0566d2004138e",
+    "userId": "6a4094918f1f8d428376d6a3",
+    "playerId": 13,
+    "playerName": "Morten Hjulmand",
+    "rarity": "Common",
+    "image": "assets/images/common/morten-hjulmand.png",
+    "serial": "SR-00000124",
+    "obtainedAt": "2026-07-20T07:52:04.062000"
+  },
+  {
+    "_id": "6a5dd3a45ec0566d2004138f",
+    "userId": "6a4094918f1f8d428376d6a3",
+    "playerId": 49,
+    "playerName": "Nico Paz",
+    "rarity": "Rare",
+    "image": "assets/images/rare/victor-osimhen.jpeg",
+    "serial": "SR-00000125",
+    "obtainedAt": "2026-07-20T07:52:04.069000"
+  },
+  {
+    "_id": "6a5dd3ad5ec0566d20041390",
+    "userId": "6a4094918f1f8d428376d6a3",
+    "playerId": 66,
+    "playerName": "Vinícius Júnior",
+    "rarity": "Epic",
+    "image": "assets/images/epic/thibaut-courtois.webp",
+    "serial": "SR-00000126",
+    "obtainedAt": "2026-07-20T07:52:13.171000"
+  },
+  {
+    "_id": "6a5dd3ad5ec0566d20041391",
+    "userId": "6a4094918f1f8d428376d6a3",
+    "playerId": 11,
+    "playerName": "Piero Hincapié",
+    "rarity": "Common",
+    "image": "assets/images/common/piero-hincapie.png",
+    "serial": "SR-00000127",
+    "obtainedAt": "2026-07-20T07:52:13.178000"
+  },
+  {
+    "_id": "6a5dd3ad5ec0566d20041392",
+    "userId": "6a4094918f1f8d428376d6a3",
+    "playerId": 26,
+    "playerName": "Nicolò Barella",
+    "rarity": "Uncommon",
+    "image": "assets/images/uncommon/nicolo-barella.webp",
+    "serial": "SR-00000128",
+    "obtainedAt": "2026-07-20T07:52:13.208000"
+  },
+  {
+    "_id": "6a5dd3ad5ec0566d20041393",
+    "userId": "6a4094918f1f8d428376d6a3",
+    "playerId": 13,
+    "playerName": "Morten Hjulmand",
+    "rarity": "Common",
+    "image": "assets/images/common/morten-hjulmand.png",
+    "serial": "SR-00000129",
+    "obtainedAt": "2026-07-20T07:52:13.253000"
+  },
+  {
+    "_id": "6a5dd3ad5ec0566d20041394",
+    "userId": "6a4094918f1f8d428376d6a3",
+    "playerId": 21,
+    "playerName": "Jonathan David",
+    "rarity": "Uncommon",
+    "image": "assets/images/uncommon/jonathan-david.png",
+    "serial": "SR-00000130",
+    "obtainedAt": "2026-07-20T07:52:13.279000"
+  },
+  {
+    "_id": "6a5dd3b95ec0566d20041395",
+    "userId": "6a4094918f1f8d428376d6a3",
+    "playerId": 19,
+    "playerName": "Désiré Doué",
+    "rarity": "Uncommon",
+    "image": "assets/images/uncommon/desire-doue.png",
+    "serial": "SR-00000131",
+    "obtainedAt": "2026-07-20T07:52:25.577000"
+  },
+  {
+    "_id": "6a5dd3b95ec0566d20041396",
+    "userId": "6a4094918f1f8d428376d6a3",
+    "playerId": 14,
+    "playerName": "Ismaël Bennacer",
+    "rarity": "Common",
+    "image": "assets/images/common/ismael-bennacer.png",
+    "serial": "SR-00000132",
+    "obtainedAt": "2026-07-20T07:52:25.584000"
+  },
+  {
+    "_id": "6a5dd3b95ec0566d20041397",
+    "userId": "6a4094918f1f8d428376d6a3",
+    "playerId": 76,
+    "playerName": "Cristiano Ronaldo",
+    "rarity": "Mythic",
+    "image": "assets/images/mythic/harry-kane.webp",
+    "serial": "SR-00000133",
+    "obtainedAt": "2026-07-20T07:52:25.591000"
+  },
+  {
+    "_id": "6a5dd3b95ec0566d20041398",
+    "userId": "6a4094918f1f8d428376d6a3",
+    "playerId": 2,
+    "playerName": "Benjamin Šeško",
+    "rarity": "Common",
+    "image": "assets/images/common/benjamin-sesko.png",
+    "serial": "SR-00000134",
+    "obtainedAt": "2026-07-20T07:52:25.596000"
+  },
+  {
+    "_id": "6a5dd3b95ec0566d20041399",
+    "userId": "6a4094918f1f8d428376d6a3",
+    "playerId": 3,
+    "playerName": "Arda Güler",
+    "rarity": "Rare",
+    "image": "assets/images/rare/arda-guler.png",
+    "serial": "SR-00000135",
+    "obtainedAt": "2026-07-20T07:52:25.603000"
+  },
+  {
+    "_id": "6a5dd3c35ec0566d2004139a",
+    "userId": "6a4094918f1f8d428376d6a3",
+    "playerId": 2,
+    "playerName": "Benjamin Šeško",
+    "rarity": "Common",
+    "image": "assets/images/common/benjamin-sesko.png",
+    "serial": "SR-00000136",
+    "obtainedAt": "2026-07-20T07:52:35.419000"
+  },
+  {
+    "_id": "6a5dd3c35ec0566d2004139b",
+    "userId": "6a4094918f1f8d428376d6a3",
+    "playerId": 74,
+    "playerName": "Bruno Fernandes",
+    "rarity": "Mythic",
+    "image": "assets/images/mythic/lamine-yamal.webp",
+    "serial": "SR-00000137",
+    "obtainedAt": "2026-07-20T07:52:35.426000"
+  },
+  {
+    "_id": "6a5dd3c35ec0566d2004139c",
+    "userId": "6a4094918f1f8d428376d6a3",
+    "playerId": 1,
+    "playerName": "Eliesse Ben Seghir",
+    "rarity": "Common",
+    "image": "assets/images/common/eliesse-ben-seghir.png",
+    "serial": "SR-00000138",
+    "obtainedAt": "2026-07-20T07:52:35.433000"
+  },
+  {
+    "_id": "6a5dd3c35ec0566d2004139d",
+    "userId": "6a4094918f1f8d428376d6a3",
+    "playerId": 44,
+    "playerName": "Lautaro Martínez",
+    "rarity": "Rare",
+    "image": "assets/images/rare/ruben-dias.jpeg",
+    "serial": "SR-00000139",
+    "obtainedAt": "2026-07-20T07:52:35.439000"
+  },
+  {
+    "_id": "6a5dd3c35ec0566d2004139e",
+    "userId": "6a4094918f1f8d428376d6a3",
+    "playerId": 44,
+    "playerName": "Lautaro Martínez",
+    "rarity": "Rare",
+    "image": "assets/images/rare/ruben-dias.jpeg",
+    "serial": "SR-00000140",
+    "obtainedAt": "2026-07-20T07:52:35.445000"
+  },
+  {
+    "_id": "6a5dd3d75ec0566d2004139f",
+    "userId": "6a4094918f1f8d428376d6a3",
+    "playerId": 18,
+    "playerName": "Xavi Simons",
+    "rarity": "Uncommon",
+    "image": "assets/images/uncommon/xavi-simons.png",
+    "serial": "SR-00000141",
+    "obtainedAt": "2026-07-20T07:52:55.391000"
+  },
+  {
+    "_id": "6a5dd3d75ec0566d200413a0",
+    "userId": "6a4094918f1f8d428376d6a3",
+    "playerId": 35,
+    "playerName": "Federico Valverde",
+    "rarity": "Rare",
+    "image": "assets/images/rare/khvicha-kvaratskhelia.jpeg",
+    "serial": "SR-00000142",
+    "obtainedAt": "2026-07-20T07:52:55.397000"
+  },
+  {
+    "_id": "6a5dd3d75ec0566d200413a1",
+    "userId": "6a4094918f1f8d428376d6a3",
+    "playerId": 2,
+    "playerName": "Benjamin Šeško",
+    "rarity": "Common",
+    "image": "assets/images/common/benjamin-sesko.png",
+    "serial": "SR-00000143",
+    "obtainedAt": "2026-07-20T07:52:55.400000"
+  },
+  {
+    "_id": "6a5dd3d75ec0566d200413a2",
+    "userId": "6a4094918f1f8d428376d6a3",
+    "playerId": 44,
+    "playerName": "Lautaro Martínez",
+    "rarity": "Rare",
+    "image": "assets/images/rare/ruben-dias.jpeg",
+    "serial": "SR-00000144",
+    "obtainedAt": "2026-07-20T07:52:55.402000"
+  },
+  {
+    "_id": "6a5dd3d75ec0566d200413a3",
+    "userId": "6a4094918f1f8d428376d6a3",
+    "playerId": 3,
+    "playerName": "Arda Güler",
+    "rarity": "Rare",
+    "image": "assets/images/rare/arda-guler.png",
+    "serial": "SR-00000145",
+    "obtainedAt": "2026-07-20T07:52:55.405000"
+  },
+  {
+    "_id": "6a5ea79bfaaf1366e082fb0d",
+    "userId": "6a56f05589cbca7628de6f81",
+    "playerId": 16,
+    "playerName": "Jhon Lucumí",
+    "rarity": "Common",
+    "image": "assets/images/common/jhon-lucumi.png",
+    "serial": "SR-00000056",
+    "obtainedAt": "2026-07-20T22:56:27.489000"
+  },
+  {
+    "_id": "6a5ea79bfaaf1366e082fb0e",
+    "userId": "6a56f05589cbca7628de6f81",
+    "playerId": 24,
+    "playerName": "Declan Rice",
+    "rarity": "Uncommon",
+    "image": "assets/images/uncommon/declan-rice.webp",
+    "serial": "SR-00000057",
+    "obtainedAt": "2026-07-20T22:56:27.560000"
+  },
+  {
+    "_id": "6a5ea79bfaaf1366e082fb0f",
+    "userId": "6a56f05589cbca7628de6f81",
+    "playerId": 13,
+    "playerName": "Morten Hjulmand",
+    "rarity": "Common",
+    "image": "assets/images/common/morten-hjulmand.png",
+    "serial": "SR-00000058",
+    "obtainedAt": "2026-07-20T22:56:27.567000"
+  },
+  {
+    "_id": "6a5ea79bfaaf1366e082fb10",
+    "userId": "6a56f05589cbca7628de6f81",
+    "playerId": 20,
+    "playerName": "Alexander Isak",
+    "rarity": "Uncommon",
+    "image": "assets/images/uncommon/alexander-isak.png",
+    "serial": "SR-00000059",
+    "obtainedAt": "2026-07-20T22:56:27.574000"
+  },
+  {
+    "_id": "6a5ea79bfaaf1366e082fb11",
+    "userId": "6a56f05589cbca7628de6f81",
+    "playerId": 55,
+    "playerName": "Bernardo Silva",
+    "rarity": "Epic",
+    "image": "assets/images/epic/vitinha.webp",
+    "serial": "SR-00000060",
+    "obtainedAt": "2026-07-20T22:56:27.581000"
+  },
+  {
+    "_id": "6a5ea9ddfaaf1366e082fb12",
+    "userId": "6a56f05589cbca7628de6f81",
+    "playerId": 18,
+    "playerName": "Xavi Simons",
+    "rarity": "Uncommon",
+    "image": "assets/images/uncommon/xavi-simons.png",
+    "serial": "SR-00000061",
+    "obtainedAt": "2026-07-20T23:06:05.580000"
+  },
+  {
+    "_id": "6a5ea9ddfaaf1366e082fb13",
+    "userId": "6a56f05589cbca7628de6f81",
+    "playerId": 53,
+    "playerName": "Son Heung-min",
+    "rarity": "Epic",
+    "image": "assets/images/epic/florian-wirtz.webp",
+    "serial": "SR-00000062",
+    "obtainedAt": "2026-07-20T23:06:05.588000"
+  },
+  {
+    "_id": "6a5ea9ddfaaf1366e082fb14",
+    "userId": "6a56f05589cbca7628de6f81",
+    "playerId": 9,
+    "playerName": "Micky van de Ven",
+    "rarity": "Common",
+    "image": "assets/images/common/micky-van-de-ven.png",
+    "serial": "SR-00000063",
+    "obtainedAt": "2026-07-20T23:06:05.596000"
+  },
+  {
+    "_id": "6a5ea9ddfaaf1366e082fb15",
+    "userId": "6a56f05589cbca7628de6f81",
+    "playerId": 29,
+    "playerName": "Jules Koundé",
+    "rarity": "Uncommon",
+    "image": "assets/images/uncommon/jules-kounde.webp",
+    "serial": "SR-00000064",
+    "obtainedAt": "2026-07-20T23:06:05.602000"
+  },
+  {
+    "_id": "6a5ea9ddfaaf1366e082fb16",
+    "userId": "6a56f05589cbca7628de6f81",
+    "playerId": 27,
+    "playerName": "Alessandro Bastoni",
+    "rarity": "Uncommon",
+    "image": "assets/images/uncommon/alessandro-bastoni.webp",
+    "serial": "SR-00000065",
+    "obtainedAt": "2026-07-20T23:06:05.608000"
+  },
+  {
+    "_id": "6a5ebdee4d8a399401a6cda6",
+    "userId": "6a56f05589cbca7628de6f81",
+    "playerId": 2,
+    "playerName": "Benjamin Šeško",
+    "rarity": "Common",
+    "image": "assets/images/common/benjamin-sesko.png",
+    "serial": "SR-00000066",
+    "obtainedAt": "2026-07-21T00:31:42.256000"
+  },
+  {
+    "_id": "6a5ebdee4d8a399401a6cda7",
+    "userId": "6a56f05589cbca7628de6f81",
+    "playerId": 15,
+    "playerName": "Igor Paixão",
+    "rarity": "Common",
+    "image": "assets/images/common/igor-paixao.png",
+    "serial": "SR-00000067",
+    "obtainedAt": "2026-07-21T00:31:42.274000"
+  },
+  {
+    "_id": "6a5ebdee4d8a399401a6cda8",
+    "userId": "6a56f05589cbca7628de6f81",
+    "playerId": 2,
+    "playerName": "Benjamin Šeško",
+    "rarity": "Common",
+    "image": "assets/images/common/benjamin-sesko.png",
+    "serial": "SR-00000068",
+    "obtainedAt": "2026-07-21T00:31:42.283000"
+  },
+  {
+    "_id": "6a5ebdee4d8a399401a6cda9",
+    "userId": "6a56f05589cbca7628de6f81",
+    "playerId": 6,
+    "playerName": "Rasmus Højlund",
+    "rarity": "Common",
+    "image": "assets/images/common/rasmus-hojlund.png",
+    "serial": "SR-00000069",
+    "obtainedAt": "2026-07-21T00:31:42.293000"
+  },
+  {
+    "_id": "6a5ebdee4d8a399401a6cdaa",
+    "userId": "6a56f05589cbca7628de6f81",
+    "playerId": 14,
+    "playerName": "Ismaël Bennacer",
+    "rarity": "Common",
+    "image": "assets/images/common/ismael-bennacer.png",
+    "serial": "SR-00000070",
+    "obtainedAt": "2026-07-21T00:31:42.303000"
+  },
+  {
+    "_id": "6a5f4ac0a4f37a934606f654",
+    "userId": "6a56f05589cbca7628de6f81",
+    "playerId": 3,
+    "playerName": "Endrick",
+    "rarity": "Rare",
+    "image": "assets/images/rare/arda-guler.png",
+    "serial": "SR-00000071",
+    "obtainedAt": "2026-07-21T10:32:32.973000"
+  },
+  {
+    "_id": "6a5f4ac1a4f37a934606f655",
+    "userId": "6a56f05589cbca7628de6f81",
+    "playerId": 54,
+    "playerName": "Bruno Fernandes",
+    "rarity": "Epic",
+    "image": "assets/images/epic/jamal-musiala.webp",
+    "serial": "SR-00000072",
+    "obtainedAt": "2026-07-21T10:32:33.018000"
+  },
+  {
+    "_id": "6a5f4ac1a4f37a934606f656",
+    "userId": "6a56f05589cbca7628de6f81",
+    "playerId": 7,
+    "playerName": "Levi Colwill",
+    "rarity": "Common",
+    "image": "assets/images/common/joao-gomes.png",
+    "serial": "SR-00000073",
+    "obtainedAt": "2026-07-21T10:32:33.027000"
+  },
+  {
+    "_id": "6a5f4ac1a4f37a934606f657",
+    "userId": "6a56f05589cbca7628de6f81",
+    "playerId": 10,
+    "playerName": "Piero Hincapié",
+    "rarity": "Common",
+    "image": "assets/images/common/riccardo-calafiori.png",
+    "serial": "SR-00000074",
+    "obtainedAt": "2026-07-21T10:32:33.034000"
+  },
+  {
+    "_id": "6a5f4ac1a4f37a934606f658",
+    "userId": "6a56f05589cbca7628de6f81",
+    "playerId": 11,
+    "playerName": "Yunus Musah",
+    "rarity": "Common",
+    "image": "assets/images/common/piero-hincapie.png",
+    "serial": "SR-00000075",
+    "obtainedAt": "2026-07-21T10:32:33.040000"
+  },
+  {
+    "_id": "6a5ff327ce6cd0422ed1f1fb",
+    "userId": "6a56f05589cbca7628de6f81",
+    "playerId": 25,
+    "playerName": "Nicolò Barella",
+    "rarity": "Uncommon",
+    "image": "assets/images/uncommon/bruno-guimaraes.webp",
+    "serial": "SR-00000076",
+    "obtainedAt": "2026-07-21T22:31:03.495000"
+  },
+  {
+    "_id": "6a5ff327ce6cd0422ed1f1fc",
+    "userId": "6a56f05589cbca7628de6f81",
+    "playerId": 51,
+    "playerName": "Viktor Gyökeres",
+    "rarity": "Rare",
+    "image": "assets/images/rare/joao-neves.jpeg",
+    "serial": "SR-00000077",
+    "obtainedAt": "2026-07-21T22:31:03.585000"
+  },
+  {
+    "_id": "6a5ff327ce6cd0422ed1f1fd",
+    "userId": "6a56f05589cbca7628de6f81",
+    "playerId": 16,
+    "playerName": "Ronald Araújo",
+    "rarity": "Common",
+    "image": "assets/images/common/jhon-lucumi.png",
+    "serial": "SR-00000078",
+    "obtainedAt": "2026-07-21T22:31:03.593000"
+  },
+  {
+    "_id": "6a5ff327ce6cd0422ed1f1fe",
+    "userId": "6a56f05589cbca7628de6f81",
+    "playerId": 52,
+    "playerName": "Vitinha",
+    "rarity": "Rare",
+    "image": "assets/images/rare/viktor-gyokeres.jpeg",
+    "serial": "SR-00000079",
+    "obtainedAt": "2026-07-21T22:31:03.601000"
+  },
+  {
+    "_id": "6a5ff327ce6cd0422ed1f1ff",
+    "userId": "6a56f05589cbca7628de6f81",
+    "playerId": 30,
+    "playerName": "Gianluigi Donnarumma",
+    "rarity": "Uncommon",
+    "image": "assets/images/uncommon/mike-maignan.webp",
+    "serial": "SR-00000080",
+    "obtainedAt": "2026-07-21T22:31:03.607000"
+  },
+  {
+    "_id": "6a60155b325621e377d1bbd4",
+    "userId": "6a56f05589cbca7628de6f81",
+    "playerId": 13,
+    "playerName": "Ismaël Bennacer",
+    "rarity": "Common",
+    "image": "assets/images/common/morten-hjulmand.png",
+    "serial": "SR-00000081",
+    "obtainedAt": "2026-07-22T00:56:59.966000"
+  },
+  {
+    "_id": "6a60155b325621e377d1bbd5",
+    "userId": "6a56f05589cbca7628de6f81",
+    "playerId": 42,
+    "playerName": "William Saliba",
+    "rarity": "Rare",
+    "image": "assets/images/rare/theo-hernandez.jpeg",
+    "serial": "SR-00000082",
+    "obtainedAt": "2026-07-22T00:56:59.993000"
+  },
+  {
+    "_id": "6a60155c325621e377d1bbd6",
+    "userId": "6a56f05589cbca7628de6f81",
+    "playerId": 3,
+    "playerName": "Endrick",
+    "rarity": "Rare",
+    "image": "assets/images/rare/arda-guler.png",
+    "serial": "SR-00000083",
+    "obtainedAt": "2026-07-22T00:57:00.001000"
+  },
+  {
+    "_id": "6a60155c325621e377d1bbd7",
+    "userId": "6a56f05589cbca7628de6f81",
+    "playerId": 19,
+    "playerName": "Alexander Isak",
+    "rarity": "Uncommon",
+    "image": "assets/images/uncommon/desire-doue.png",
+    "serial": "SR-00000084",
+    "obtainedAt": "2026-07-22T00:57:00.028000"
+  },
+  {
+    "_id": "6a60155c325621e377d1bbd8",
+    "userId": "6a56f05589cbca7628de6f81",
+    "playerId": 4,
+    "playerName": "Alejandro Garnacho",
+    "rarity": "Common",
+    "image": "assets/images/common/endrick.png",
+    "serial": "SR-00000085",
+    "obtainedAt": "2026-07-22T00:57:00.039000"
+  },
+  {
+    "_id": "6a601567325621e377d1bbd9",
+    "userId": "6a56f05589cbca7628de6f81",
+    "playerId": 58,
+    "playerName": "Bernardo Silva",
+    "rarity": "Epic",
+    "image": "assets/images/epic/vinicius-junior.webp",
+    "serial": "SR-00000086",
+    "obtainedAt": "2026-07-22T00:57:11.169000"
+  },
+  {
+    "_id": "6a601567325621e377d1bbda",
+    "userId": "6a56f05589cbca7628de6f81",
+    "playerId": 1,
+    "playerName": "Eliesse Ben Seghir",
+    "rarity": "Common",
+    "image": "assets/images/common/eliesse-ben-seghir.png",
+    "serial": "SR-00000087",
+    "obtainedAt": "2026-07-22T00:57:11.179000"
+  },
+  {
+    "_id": "6a601567325621e377d1bbdb",
+    "userId": "6a56f05589cbca7628de6f81",
+    "playerId": 2,
+    "playerName": "Benjamin Šeško",
+    "rarity": "Common",
+    "image": "assets/images/common/benjamin-sesko.png",
+    "serial": "SR-00000088",
+    "obtainedAt": "2026-07-22T00:57:11.189000"
+  },
+  {
+    "_id": "6a601567325621e377d1bbdc",
+    "userId": "6a56f05589cbca7628de6f81",
+    "playerId": 10,
+    "playerName": "Piero Hincapié",
+    "rarity": "Common",
+    "image": "assets/images/common/riccardo-calafiori.png",
+    "serial": "SR-00000089",
+    "obtainedAt": "2026-07-22T00:57:11.219000"
+  },
+  {
+    "_id": "6a601567325621e377d1bbdd",
+    "userId": "6a56f05589cbca7628de6f81",
+    "playerId": 18,
+    "playerName": "Désiré Doué",
+    "rarity": "Uncommon",
+    "image": "assets/images/uncommon/xavi-simons.png",
+    "serial": "SR-00000090",
+    "obtainedAt": "2026-07-22T00:57:11.228000"
+  },
+  {
+    "_id": "6a60166c325621e377d1bbde",
+    "userId": "6a56f05589cbca7628de6f81",
+    "playerId": 11,
+    "playerName": "Yunus Musah",
+    "rarity": "Common",
+    "image": "assets/images/common/piero-hincapie.png",
+    "serial": "SR-00000091",
+    "obtainedAt": "2026-07-22T01:01:32.587000"
+  },
+  {
+    "_id": "6a60166c325621e377d1bbdf",
+    "userId": "6a56f05589cbca7628de6f81",
+    "playerId": 10,
+    "playerName": "Piero Hincapié",
+    "rarity": "Common",
+    "image": "assets/images/common/riccardo-calafiori.png",
+    "serial": "SR-00000092",
+    "obtainedAt": "2026-07-22T01:01:32.623000"
+  },
+  {
+    "_id": "6a60166c325621e377d1bbe0",
+    "userId": "6a56f05589cbca7628de6f81",
+    "playerId": 16,
+    "playerName": "Ronald Araújo",
+    "rarity": "Common",
+    "image": "assets/images/common/jhon-lucumi.png",
+    "serial": "SR-00000093",
+    "obtainedAt": "2026-07-22T01:01:32.632000"
+  },
+  {
+    "_id": "6a60166c325621e377d1bbe1",
+    "userId": "6a56f05589cbca7628de6f81",
+    "playerId": 19,
+    "playerName": "Alexander Isak",
+    "rarity": "Uncommon",
+    "image": "assets/images/uncommon/desire-doue.png",
+    "serial": "SR-00000094",
+    "obtainedAt": "2026-07-22T01:01:32.641000"
+  },
+  {
+    "_id": "6a60166c325621e377d1bbe2",
+    "userId": "6a56f05589cbca7628de6f81",
+    "playerId": 77,
+    "playerName": "Lionel Messi",
+    "rarity": "Mythic",
+    "image": "assets/images/mythic/rodri.webp",
+    "serial": "SR-00000095",
+    "obtainedAt": "2026-07-22T01:01:32.651000"
+  },
+  {
+    "_id": "6a601c9b325621e377d1bbe3",
+    "userId": "6a56f05589cbca7628de6f81",
+    "playerId": 1,
+    "playerName": "Eliesse Ben Seghir",
+    "rarity": "Common",
+    "image": "assets/images/common/eliesse-ben-seghir.webp",
+    "serial": "SR-00000096",
+    "obtainedAt": "2026-07-22T01:27:55.328000"
+  },
+  {
+    "_id": "6a601c9b325621e377d1bbe4",
+    "userId": "6a56f05589cbca7628de6f81",
+    "playerId": 11,
+    "playerName": "Yunus Musah",
+    "rarity": "Common",
+    "image": "assets/images/common/yunus-musah.webp",
+    "serial": "SR-00000097",
+    "obtainedAt": "2026-07-22T01:27:55.339000"
+  },
+  {
+    "_id": "6a601c9b325621e377d1bbe5",
+    "userId": "6a56f05589cbca7628de6f81",
+    "playerId": 14,
+    "playerName": "Igor Paixão",
+    "rarity": "Common",
+    "image": "assets/images/common/igor-paixao.webp",
+    "serial": "SR-00000098",
+    "obtainedAt": "2026-07-22T01:27:55.350000"
+  },
+  {
+    "_id": "6a601c9b325621e377d1bbe6",
+    "userId": "6a56f05589cbca7628de6f81",
+    "playerId": 47,
+    "playerName": "Omar Marmoush",
+    "rarity": "Rare",
+    "image": "assets/images/rare/omar-marmoush.jpeg",
+    "serial": "SR-00000099",
+    "obtainedAt": "2026-07-22T01:27:55.359000"
+  },
+  {
+    "_id": "6a601c9b325621e377d1bbe7",
+    "userId": "6a56f05589cbca7628de6f81",
+    "playerId": 27,
+    "playerName": "Federico Dimarco",
+    "rarity": "Uncommon",
+    "image": "assets/images/uncommon/federico-dimarco.webp",
+    "serial": "SR-00000100",
+    "obtainedAt": "2026-07-22T01:27:55.371000"
+  },
+  {
+    "_id": "6a601cb7325621e377d1bbe8",
+    "userId": "6a56f05589cbca7628de6f81",
+    "playerId": 7,
+    "playerName": "Levi Colwill",
+    "rarity": "Common",
+    "image": "assets/images/common/levi-colwill.webp",
+    "serial": "SR-00000146",
+    "obtainedAt": "2026-07-22T01:28:23.238000"
+  },
+  {
+    "_id": "6a601cb7325621e377d1bbe9",
+    "userId": "6a56f05589cbca7628de6f81",
+    "playerId": 11,
+    "playerName": "Yunus Musah",
+    "rarity": "Common",
+    "image": "assets/images/common/yunus-musah.webp",
+    "serial": "SR-00000147",
+    "obtainedAt": "2026-07-22T01:28:23.246000"
+  },
+  {
+    "_id": "6a601cb7325621e377d1bbea",
+    "userId": "6a56f05589cbca7628de6f81",
+    "playerId": 30,
+    "playerName": "Gianluigi Donnarumma",
+    "rarity": "Uncommon",
+    "image": "assets/images/uncommon/gianluigi-donnarumma.webp",
+    "serial": "SR-00000148",
+    "obtainedAt": "2026-07-22T01:28:23.253000"
+  },
+  {
+    "_id": "6a601cb7325621e377d1bbeb",
+    "userId": "6a56f05589cbca7628de6f81",
+    "playerId": 12,
+    "playerName": "Morten Hjulmand",
+    "rarity": "Common",
+    "image": "assets/images/common/morten-hjulmand.webp",
+    "serial": "SR-00000149",
+    "obtainedAt": "2026-07-22T01:28:23.261000"
+  },
+  {
+    "_id": "6a601cb7325621e377d1bbec",
+    "userId": "6a56f05589cbca7628de6f81",
+    "playerId": 8,
+    "playerName": "Micky van de Ven",
+    "rarity": "Common",
+    "image": "assets/images/common/micky-van-de-ven.webp",
+    "serial": "SR-00000150",
+    "obtainedAt": "2026-07-22T01:28:23.268000"
+  },
+  {
+    "_id": "6a601cc3325621e377d1bbed",
+    "userId": "6a56f05589cbca7628de6f81",
+    "playerId": 34,
+    "playerName": "Khvicha Kvaratskhelia",
+    "rarity": "Rare",
+    "image": "assets/images/rare/khvicha-kvaratskhelia.jpeg",
+    "serial": "SR-00000151",
+    "obtainedAt": "2026-07-22T01:28:35.341000"
+  },
+  {
+    "_id": "6a601cc3325621e377d1bbee",
+    "userId": "6a56f05589cbca7628de6f81",
+    "playerId": 38,
+    "playerName": "Martin Ødegaard",
+    "rarity": "Rare",
+    "image": "assets/images/rare/martin-odegaard.jpeg",
+    "serial": "SR-00000152",
+    "obtainedAt": "2026-07-22T01:28:35.367000"
+  },
+  {
+    "_id": "6a601cc3325621e377d1bbef",
+    "userId": "6a56f05589cbca7628de6f81",
+    "playerId": 12,
+    "playerName": "Morten Hjulmand",
+    "rarity": "Common",
+    "image": "assets/images/common/morten-hjulmand.webp",
+    "serial": "SR-00000153",
+    "obtainedAt": "2026-07-22T01:28:35.378000"
+  },
+  {
+    "_id": "6a601cc3325621e377d1bbf0",
+    "userId": "6a56f05589cbca7628de6f81",
+    "playerId": 24,
+    "playerName": "Bruno Guimarães",
+    "rarity": "Uncommon",
+    "image": "assets/images/uncommon/bruno-guimaraes.webp",
+    "serial": "SR-00000154",
+    "obtainedAt": "2026-07-22T01:28:35.388000"
+  },
+  {
+    "_id": "6a601cc3325621e377d1bbf1",
+    "userId": "6a56f05589cbca7628de6f81",
+    "playerId": 7,
+    "playerName": "Levi Colwill",
+    "rarity": "Common",
+    "image": "assets/images/common/levi-colwill.webp",
+    "serial": "SR-00000155",
+    "obtainedAt": "2026-07-22T01:28:35.401000"
+  },
+  {
+    "_id": "6a601df38715fdf077d8290e",
+    "userId": "6a56f05589cbca7628de6f81",
+    "playerId": 97,
+    "playerName": "Cristiano Ronaldo",
+    "rarity": "Secret",
+    "image": "assets/images/secret/cristiano-ronaldo.webp",
+    "serial": "SR-00000156",
+    "obtainedAt": "2026-07-22T01:33:39.704000"
+  },
+  {
+    "_id": "6a601df38715fdf077d8290f",
+    "userId": "6a56f05589cbca7628de6f81",
+    "playerId": 2,
+    "playerName": "Benjamin Sesko",
+    "rarity": "Common",
+    "image": "assets/images/common/benjamin-sesko.png",
+    "serial": "SR-00000157",
+    "obtainedAt": "2026-07-22T01:33:39.715000"
+  },
+  {
+    "_id": "6a601df38715fdf077d82910",
+    "userId": "6a56f05589cbca7628de6f81",
+    "playerId": 14,
+    "playerName": "Ismael Bennacer",
+    "rarity": "Common",
+    "image": "assets/images/common/ismael-bennacer.png",
+    "serial": "SR-00000158",
+    "obtainedAt": "2026-07-22T01:33:39.724000"
+  },
+  {
+    "_id": "6a601df38715fdf077d82911",
+    "userId": "6a56f05589cbca7628de6f81",
+    "playerId": 19,
+    "playerName": "Desire Doue",
+    "rarity": "Uncommon",
+    "image": "assets/images/uncommon/desire-doue.png",
+    "serial": "SR-00000159",
+    "obtainedAt": "2026-07-22T01:33:39.733000"
+  },
+  {
+    "_id": "6a601df38715fdf077d82912",
+    "userId": "6a56f05589cbca7628de6f81",
+    "playerId": 76,
+    "playerName": "Harry Kane",
+    "rarity": "Mythic",
+    "image": "assets/images/mythic/harry-kane.webp",
+    "serial": "SR-00000160",
+    "obtainedAt": "2026-07-22T01:33:39.741000"
+  },
+  {
+    "_id": "6a601e058715fdf077d82913",
+    "userId": "6a56f05589cbca7628de6f81",
+    "playerId": 28,
+    "playerName": "Federico Dimarco",
+    "rarity": "Uncommon",
+    "image": "assets/images/uncommon/federico-dimarco.webp",
+    "serial": "SR-00000161",
+    "obtainedAt": "2026-07-22T01:33:57.309000"
+  },
+  {
+    "_id": "6a601e058715fdf077d82914",
+    "userId": "6a56f05589cbca7628de6f81",
+    "playerId": 6,
+    "playerName": "Rasmus Hojlund",
+    "rarity": "Common",
+    "image": "assets/images/common/rasmus-hojlund.png",
+    "serial": "SR-00000162",
+    "obtainedAt": "2026-07-22T01:33:57.320000"
+  },
+  {
+    "_id": "6a601e058715fdf077d82915",
+    "userId": "6a56f05589cbca7628de6f81",
+    "playerId": 35,
+    "playerName": "Khvicha Kvaratskhelia",
+    "rarity": "Rare",
+    "image": "assets/images/rare/khvicha-kvaratskhelia.jpeg",
+    "serial": "SR-00000163",
+    "obtainedAt": "2026-07-22T01:33:57.326000"
+  },
+  {
+    "_id": "6a601e058715fdf077d82916",
+    "userId": "6a56f05589cbca7628de6f81",
+    "playerId": 36,
+    "playerName": "Rafael Leao",
+    "rarity": "Rare",
+    "image": "assets/images/rare/rafael-leao.jpeg",
+    "serial": "SR-00000164",
+    "obtainedAt": "2026-07-22T01:33:57.333000"
+  },
+  {
+    "_id": "6a601e058715fdf077d82917",
+    "userId": "6a56f05589cbca7628de6f81",
+    "playerId": 27,
+    "playerName": "Alessandro Bastoni",
+    "rarity": "Uncommon",
+    "image": "assets/images/uncommon/alessandro-bastoni.webp",
+    "serial": "SR-00000165",
+    "obtainedAt": "2026-07-22T01:33:57.337000"
+  },
+  {
+    "_id": "6a601e7b8715fdf077d82918",
+    "userId": "6a56f05589cbca7628de6f81",
+    "playerId": 10,
+    "playerName": "Riccardo Calafiori",
+    "rarity": "Common",
+    "image": "assets/images/common/riccardo-calafiori.png",
+    "serial": "SR-00000166",
+    "obtainedAt": "2026-07-22T01:35:55.260000"
+  },
+  {
+    "_id": "6a601e7b8715fdf077d82919",
+    "userId": "6a56f05589cbca7628de6f81",
+    "playerId": 17,
+    "playerName": "Ronald Araujo",
+    "rarity": "Common",
+    "image": "assets/images/common/ronald-araujo.png",
+    "serial": "SR-00000167",
+    "obtainedAt": "2026-07-22T01:35:55.270000"
+  },
+  {
+    "_id": "6a601e7b8715fdf077d8291a",
+    "userId": "6a56f05589cbca7628de6f81",
+    "playerId": 30,
+    "playerName": "Mike Maignan",
+    "rarity": "Uncommon",
+    "image": "assets/images/uncommon/mike-maignan.webp",
+    "serial": "SR-00000168",
+    "obtainedAt": "2026-07-22T01:35:55.283000"
+  },
+  {
+    "_id": "6a601e7b8715fdf077d8291b",
+    "userId": "6a56f05589cbca7628de6f81",
+    "playerId": 47,
+    "playerName": "Robert Lewandowski",
+    "rarity": "Rare",
+    "image": "assets/images/rare/robert-lewandowski.jpeg",
+    "serial": "SR-00000169",
+    "obtainedAt": "2026-07-22T01:35:55.298000"
+  },
+  {
+    "_id": "6a601e7b8715fdf077d8291c",
+    "userId": "6a56f05589cbca7628de6f81",
+    "playerId": 45,
+    "playerName": "Julian Alvarez",
+    "rarity": "Rare",
+    "image": "assets/images/rare/julian-alvarez.jpeg",
+    "serial": "SR-00000170",
+    "obtainedAt": "2026-07-22T01:35:55.311000"
+  },
+  {
+    "_id": "6a601e868715fdf077d8291d",
+    "userId": "6a56f05589cbca7628de6f81",
+    "playerId": 28,
+    "playerName": "Federico Dimarco",
+    "rarity": "Uncommon",
+    "image": "assets/images/uncommon/federico-dimarco.webp",
+    "serial": "SR-00000171",
+    "obtainedAt": "2026-07-22T01:36:06.585000"
+  },
+  {
+    "_id": "6a601e868715fdf077d8291e",
+    "userId": "6a56f05589cbca7628de6f81",
+    "playerId": 37,
+    "playerName": "Federico Valverde",
+    "rarity": "Rare",
+    "image": "assets/images/rare/federico-valverde.jpeg",
+    "serial": "SR-00000172",
+    "obtainedAt": "2026-07-22T01:36:06.596000"
+  },
+  {
+    "_id": "6a601e868715fdf077d8291f",
+    "userId": "6a56f05589cbca7628de6f81",
+    "playerId": 62,
+    "playerName": "Antoine Griezmann",
+    "rarity": "Epic",
+    "image": "assets/images/epic/antoine-griezmann.webp",
+    "serial": "SR-00000173",
+    "obtainedAt": "2026-07-22T01:36:06.606000"
+  },
+  {
+    "_id": "6a601e868715fdf077d82920",
+    "userId": "6a56f05589cbca7628de6f81",
+    "playerId": 20,
+    "playerName": "Alexander Isak",
+    "rarity": "Uncommon",
+    "image": "assets/images/uncommon/alexander-isak.png",
+    "serial": "SR-00000174",
+    "obtainedAt": "2026-07-22T01:36:06.619000"
+  },
+  {
+    "_id": "6a601e868715fdf077d82921",
+    "userId": "6a56f05589cbca7628de6f81",
+    "playerId": 17,
+    "playerName": "Ronald Araujo",
+    "rarity": "Common",
+    "image": "assets/images/common/ronald-araujo.png",
+    "serial": "SR-00000175",
+    "obtainedAt": "2026-07-22T01:36:06.628000"
+  },
+  {
+    "_id": "6a6022508715fdf077d82922",
+    "userId": "6a4094918f1f8d428376d6a3",
+    "playerId": 61,
+    "playerName": "Son Heung-min",
+    "rarity": "Epic",
+    "image": "assets/images/epic/son-heung-min.webp",
+    "serial": "SR-00000176",
+    "obtainedAt": "2026-07-22T01:52:16.630000"
+  },
+  {
+    "_id": "6a6022508715fdf077d82923",
+    "userId": "6a4094918f1f8d428376d6a3",
+    "playerId": 70,
+    "playerName": "Kylian Mbappe",
+    "rarity": "Mythic",
+    "image": "assets/images/mythic/kylian-mbappe.webp",
+    "serial": "SR-00000177",
+    "obtainedAt": "2026-07-22T01:52:16.636000"
+  },
+  {
+    "_id": "6a6022508715fdf077d82924",
+    "userId": "6a4094918f1f8d428376d6a3",
+    "playerId": 13,
+    "playerName": "Morten Hjulmand",
+    "rarity": "Common",
+    "image": "assets/images/common/morten-hjulmand.png",
+    "serial": "SR-00000178",
+    "obtainedAt": "2026-07-22T01:52:16.645000"
+  },
+  {
+    "_id": "6a6022508715fdf077d82925",
+    "userId": "6a4094918f1f8d428376d6a3",
+    "playerId": 7,
+    "playerName": "Joao Gomes",
+    "rarity": "Common",
+    "image": "assets/images/common/joao-gomes.png",
+    "serial": "SR-00000179",
+    "obtainedAt": "2026-07-22T01:52:16.650000"
+  },
+  {
+    "_id": "6a6022508715fdf077d82926",
+    "userId": "6a4094918f1f8d428376d6a3",
+    "playerId": 18,
+    "playerName": "Xavi Simons",
+    "rarity": "Uncommon",
+    "image": "assets/images/uncommon/xavi-simons.png",
+    "serial": "SR-00000180",
+    "obtainedAt": "2026-07-22T01:52:16.656000"
+  },
+  {
+    "_id": "6a6031398715fdf077d82927",
+    "userId": "6a4094918f1f8d428376d6a3",
+    "playerId": 91,
+    "playerName": "Harry Kane",
+    "rarity": "Secret",
+    "image": "assets/images/secret/harry-kane.png",
+    "serial": "SR-00000181",
+    "obtainedAt": "2026-07-22T02:55:53.213000"
+  },
+  {
+    "_id": "6a6031398715fdf077d82928",
+    "userId": "6a4094918f1f8d428376d6a3",
+    "playerId": 7,
+    "playerName": "Joao Gomes",
+    "rarity": "Common",
+    "image": "assets/images/common/joao-gomes.png",
+    "serial": "SR-00000182",
+    "obtainedAt": "2026-07-22T02:55:53.228000"
+  },
+  {
+    "_id": "6a6031398715fdf077d82929",
+    "userId": "6a4094918f1f8d428376d6a3",
+    "playerId": 23,
+    "playerName": "Alexis Mac Allister",
+    "rarity": "Uncommon",
+    "image": "assets/images/uncommon/alexis-mac-allister.png",
+    "serial": "SR-00000183",
+    "obtainedAt": "2026-07-22T02:55:53.238000"
+  },
+  {
+    "_id": "6a6031398715fdf077d8292a",
+    "userId": "6a4094918f1f8d428376d6a3",
+    "playerId": 38,
+    "playerName": "Rodrygo",
+    "rarity": "Rare",
+    "image": "assets/images/rare/rodrygo.jpeg",
+    "serial": "SR-00000184",
+    "obtainedAt": "2026-07-22T02:55:53.250000"
+  },
+  {
+    "_id": "6a6031398715fdf077d8292b",
+    "userId": "6a4094918f1f8d428376d6a3",
+    "playerId": 34,
+    "playerName": "Phil Foden",
+    "rarity": "Rare",
+    "image": "assets/images/rare/phil-foden.jpeg",
+    "serial": "SR-00000185",
+    "obtainedAt": "2026-07-22T02:55:53.265000"
+  },
+  {
+    "_id": "6a6034b28715fdf077d8292c",
+    "userId": "6a4094918f1f8d428376d6a3",
+    "playerId": 5,
+    "playerName": "Alejandro Garnacho",
+    "rarity": "Common",
+    "image": "assets/images/common/alejandro-garnacho.png",
+    "serial": "SR-00000186",
+    "obtainedAt": "2026-07-22T03:10:42.079000"
+  },
+  {
+    "_id": "6a6034b28715fdf077d8292d",
+    "userId": "6a4094918f1f8d428376d6a3",
+    "playerId": 24,
+    "playerName": "Declan Rice",
+    "rarity": "Uncommon",
+    "image": "assets/images/uncommon/declan-rice.webp",
+    "serial": "SR-00000187",
+    "obtainedAt": "2026-07-22T03:10:42.092000"
+  },
+  {
+    "_id": "6a6034b28715fdf077d8292e",
+    "userId": "6a4094918f1f8d428376d6a3",
+    "playerId": 54,
+    "playerName": "Jamal Musiala",
+    "rarity": "Epic",
+    "image": "assets/images/epic/jamal-musiala.webp",
+    "serial": "SR-00000188",
+    "obtainedAt": "2026-07-22T03:10:42.100000"
+  },
+  {
+    "_id": "6a6034b28715fdf077d8292f",
+    "userId": "6a4094918f1f8d428376d6a3",
+    "playerId": 17,
+    "playerName": "Ronald Araujo",
+    "rarity": "Common",
+    "image": "assets/images/common/ronald-araujo.png",
+    "serial": "SR-00000189",
+    "obtainedAt": "2026-07-22T03:10:42.106000"
+  },
+  {
+    "_id": "6a6034b28715fdf077d82930",
+    "userId": "6a4094918f1f8d428376d6a3",
+    "playerId": 21,
+    "playerName": "Jonathan David",
+    "rarity": "Uncommon",
+    "image": "assets/images/uncommon/jonathan-david.png",
+    "serial": "SR-00000190",
+    "obtainedAt": "2026-07-22T03:10:42.111000"
+  },
+  {
+    "_id": "6a6036ab8715fdf077d82931",
+    "userId": "6a4094918f1f8d428376d6a3",
+    "playerId": 44,
+    "playerName": "Ruben Dias",
+    "rarity": "Rare",
+    "image": "assets/images/rare/ruben-dias.jpeg",
+    "serial": "SR-00000191",
+    "obtainedAt": "2026-07-22T03:19:07.858000"
+  },
+  {
+    "_id": "6a6036ab8715fdf077d82932",
+    "userId": "6a4094918f1f8d428376d6a3",
+    "playerId": 27,
+    "playerName": "Alessandro Bastoni",
+    "rarity": "Uncommon",
+    "image": "assets/images/uncommon/alessandro-bastoni.webp",
+    "serial": "SR-00000192",
+    "obtainedAt": "2026-07-22T03:19:07.871000"
+  },
+  {
+    "_id": "6a6036ab8715fdf077d82933",
+    "userId": "6a4094918f1f8d428376d6a3",
+    "playerId": 34,
+    "playerName": "Phil Foden",
+    "rarity": "Rare",
+    "image": "assets/images/rare/phil-foden.jpeg",
+    "serial": "SR-00000193",
+    "obtainedAt": "2026-07-22T03:19:07.922000"
+  },
+  {
+    "_id": "6a6036ab8715fdf077d82934",
+    "userId": "6a4094918f1f8d428376d6a3",
+    "playerId": 60,
+    "playerName": "Kevin De Bruyne",
+    "rarity": "Epic",
+    "image": "assets/images/epic/kevin-de-bruyne.webp",
+    "serial": "SR-00000194",
+    "obtainedAt": "2026-07-22T03:19:07.932000"
+  },
+  {
+    "_id": "6a6036ab8715fdf077d82935",
+    "userId": "6a4094918f1f8d428376d6a3",
+    "playerId": 28,
+    "playerName": "Federico Dimarco",
+    "rarity": "Uncommon",
+    "image": "assets/images/uncommon/federico-dimarco.webp",
+    "serial": "SR-00000195",
+    "obtainedAt": "2026-07-22T03:19:07.941000"
+  },
+  {
+    "_id": "6a6036b48715fdf077d82936",
+    "userId": "6a4094918f1f8d428376d6a3",
+    "playerId": 17,
+    "playerName": "Ronald Araujo",
+    "rarity": "Common",
+    "image": "assets/images/common/ronald-araujo.png",
+    "serial": "SR-00000196",
+    "obtainedAt": "2026-07-22T03:19:16.547000"
+  },
+  {
+    "_id": "6a6036b48715fdf077d82937",
+    "userId": "6a4094918f1f8d428376d6a3",
+    "playerId": 15,
+    "playerName": "Igor Paixao",
+    "rarity": "Common",
+    "image": "assets/images/common/igor-paixao.png",
+    "serial": "SR-00000197",
+    "obtainedAt": "2026-07-22T03:19:16.551000"
+  },
+  {
+    "_id": "6a6036b48715fdf077d82938",
+    "userId": "6a4094918f1f8d428376d6a3",
+    "playerId": 6,
+    "playerName": "Rasmus Hojlund",
+    "rarity": "Common",
+    "image": "assets/images/common/rasmus-hojlund.png",
+    "serial": "SR-00000198",
+    "obtainedAt": "2026-07-22T03:19:16.556000"
+  },
+  {
+    "_id": "6a6036b48715fdf077d82939",
+    "userId": "6a4094918f1f8d428376d6a3",
+    "playerId": 47,
+    "playerName": "Robert Lewandowski",
+    "rarity": "Rare",
+    "image": "assets/images/rare/robert-lewandowski.jpeg",
+    "serial": "SR-00000199",
+    "obtainedAt": "2026-07-22T03:19:16.563000"
+  },
+  {
+    "_id": "6a6036b48715fdf077d8293a",
+    "userId": "6a4094918f1f8d428376d6a3",
+    "playerId": 29,
+    "playerName": "Jules Kounde",
+    "rarity": "Uncommon",
+    "image": "assets/images/uncommon/jules-kounde.webp",
+    "serial": "SR-00000200",
+    "obtainedAt": "2026-07-22T03:19:16.569000"
+  },
+  {
+    "_id": "6a6036bd8715fdf077d8293b",
+    "userId": "6a4094918f1f8d428376d6a3",
+    "playerId": 70,
+    "playerName": "Kylian Mbappe",
+    "rarity": "Mythic",
+    "image": "assets/images/mythic/kylian-mbappe.webp",
+    "serial": "SR-00000201",
+    "obtainedAt": "2026-07-22T03:19:25.555000"
+  },
+  {
+    "_id": "6a6036bd8715fdf077d8293c",
+    "userId": "6a4094918f1f8d428376d6a3",
+    "playerId": 1,
+    "playerName": "Eliesse Ben Seghir",
+    "rarity": "Common",
+    "image": "assets/images/common/eliesse-ben-seghir.png",
+    "serial": "SR-00000202",
+    "obtainedAt": "2026-07-22T03:19:25.561000"
+  },
+  {
+    "_id": "6a6036bd8715fdf077d8293d",
+    "userId": "6a4094918f1f8d428376d6a3",
+    "playerId": 48,
+    "playerName": "Omar Marmoush",
+    "rarity": "Rare",
+    "image": "assets/images/rare/omar-marmoush.jpeg",
+    "serial": "SR-00000203",
+    "obtainedAt": "2026-07-22T03:19:25.565000"
+  },
+  {
+    "_id": "6a6036bd8715fdf077d8293e",
+    "userId": "6a4094918f1f8d428376d6a3",
+    "playerId": 50,
+    "playerName": "Nico Paz",
+    "rarity": "Rare",
+    "image": "assets/images/rare/nico-paz.jpeg",
+    "serial": "SR-00000204",
+    "obtainedAt": "2026-07-22T03:19:25.568000"
+  },
+  {
+    "_id": "6a6036bd8715fdf077d8293f",
+    "userId": "6a4094918f1f8d428376d6a3",
+    "playerId": 44,
+    "playerName": "Ruben Dias",
+    "rarity": "Rare",
+    "image": "assets/images/rare/ruben-dias.jpeg",
+    "serial": "SR-00000205",
+    "obtainedAt": "2026-07-22T03:19:25.613000"
+  },
+  {
+    "_id": "6a6036c78715fdf077d82940",
+    "userId": "6a4094918f1f8d428376d6a3",
+    "playerId": 49,
+    "playerName": "Victor Osimhen",
+    "rarity": "Rare",
+    "image": "assets/images/rare/victor-osimhen.jpeg",
+    "serial": "SR-00000206",
+    "obtainedAt": "2026-07-22T03:19:35.457000"
+  },
+  {
+    "_id": "6a6036c78715fdf077d82941",
+    "userId": "6a4094918f1f8d428376d6a3",
+    "playerId": 15,
+    "playerName": "Igor Paixao",
+    "rarity": "Common",
+    "image": "assets/images/common/igor-paixao.png",
+    "serial": "SR-00000207",
+    "obtainedAt": "2026-07-22T03:19:35.467000"
+  },
+  {
+    "_id": "6a6036c78715fdf077d82942",
+    "userId": "6a4094918f1f8d428376d6a3",
+    "playerId": 29,
+    "playerName": "Jules Kounde",
+    "rarity": "Uncommon",
+    "image": "assets/images/uncommon/jules-kounde.webp",
+    "serial": "SR-00000208",
+    "obtainedAt": "2026-07-22T03:19:35.478000"
+  },
+  {
+    "_id": "6a6036c78715fdf077d82943",
+    "userId": "6a4094918f1f8d428376d6a3",
+    "playerId": 14,
+    "playerName": "Ismael Bennacer",
+    "rarity": "Common",
+    "image": "assets/images/common/ismael-bennacer.png",
+    "serial": "SR-00000209",
+    "obtainedAt": "2026-07-22T03:19:35.488000"
+  },
+  {
+    "_id": "6a6036c78715fdf077d82944",
+    "userId": "6a4094918f1f8d428376d6a3",
+    "playerId": 28,
+    "playerName": "Federico Dimarco",
+    "rarity": "Uncommon",
+    "image": "assets/images/uncommon/federico-dimarco.webp",
+    "serial": "SR-00000210",
+    "obtainedAt": "2026-07-22T03:19:35.498000"
+  },
+  {
+    "_id": "6a6037198715fdf077d82945",
+    "userId": "6a4094918f1f8d428376d6a3",
+    "playerId": 6,
+    "playerName": "Rasmus Hojlund",
+    "rarity": "Common",
+    "image": "assets/images/common/rasmus-hojlund.png",
+    "serial": "SR-00000211",
+    "obtainedAt": "2026-07-22T03:20:57.255000"
+  },
+  {
+    "_id": "6a6037198715fdf077d82946",
+    "userId": "6a4094918f1f8d428376d6a3",
+    "playerId": 10,
+    "playerName": "Riccardo Calafiori",
+    "rarity": "Common",
+    "image": "assets/images/common/riccardo-calafiori.png",
+    "serial": "SR-00000212",
+    "obtainedAt": "2026-07-22T03:20:57.266000"
+  },
+  {
+    "_id": "6a6037198715fdf077d82947",
+    "userId": "6a4094918f1f8d428376d6a3",
+    "playerId": 5,
+    "playerName": "Alejandro Garnacho",
+    "rarity": "Common",
+    "image": "assets/images/common/alejandro-garnacho.png",
+    "serial": "SR-00000213",
+    "obtainedAt": "2026-07-22T03:20:57.275000"
+  },
+  {
+    "_id": "6a6037198715fdf077d82948",
+    "userId": "6a4094918f1f8d428376d6a3",
+    "playerId": 49,
+    "playerName": "Victor Osimhen",
+    "rarity": "Rare",
+    "image": "assets/images/rare/victor-osimhen.jpeg",
+    "serial": "SR-00000214",
+    "obtainedAt": "2026-07-22T03:20:57.285000"
+  },
+  {
+    "_id": "6a6037198715fdf077d82949",
+    "userId": "6a4094918f1f8d428376d6a3",
+    "playerId": 27,
+    "playerName": "Alessandro Bastoni",
+    "rarity": "Uncommon",
+    "image": "assets/images/uncommon/alessandro-bastoni.webp",
+    "serial": "SR-00000215",
+    "obtainedAt": "2026-07-22T03:20:57.294000"
+  },
+  {
+    "_id": "6a60378f8715fdf077d8294a",
+    "userId": "6a4094918f1f8d428376d6a3",
+    "playerId": 34,
+    "playerName": "Phil Foden",
+    "rarity": "Rare",
+    "image": "assets/images/rare/phil-foden.jpeg",
+    "serial": "SR-00000216",
+    "obtainedAt": "2026-07-22T03:22:55.889000"
+  },
+  {
+    "_id": "6a60378f8715fdf077d8294b",
+    "userId": "6a4094918f1f8d428376d6a3",
+    "playerId": 24,
+    "playerName": "Declan Rice",
+    "rarity": "Uncommon",
+    "image": "assets/images/uncommon/declan-rice.webp",
+    "serial": "SR-00000217",
+    "obtainedAt": "2026-07-22T03:22:55.939000"
+  },
+  {
+    "_id": "6a60378f8715fdf077d8294c",
+    "userId": "6a4094918f1f8d428376d6a3",
+    "playerId": 14,
+    "playerName": "Ismael Bennacer",
+    "rarity": "Common",
+    "image": "assets/images/common/ismael-bennacer.png",
+    "serial": "SR-00000218",
+    "obtainedAt": "2026-07-22T03:22:55.950000"
+  },
+  {
+    "_id": "6a60378f8715fdf077d8294d",
+    "userId": "6a4094918f1f8d428376d6a3",
+    "playerId": 13,
+    "playerName": "Morten Hjulmand",
+    "rarity": "Common",
+    "image": "assets/images/common/morten-hjulmand.png",
+    "serial": "SR-00000219",
+    "obtainedAt": "2026-07-22T03:22:55.960000"
+  },
+  {
+    "_id": "6a60378f8715fdf077d8294e",
+    "userId": "6a4094918f1f8d428376d6a3",
+    "playerId": 66,
+    "playerName": "Thibaut Courtois",
+    "rarity": "Epic",
+    "image": "assets/images/epic/thibaut-courtois.png",
+    "serial": "SR-00000220",
+    "obtainedAt": "2026-07-22T03:22:55.971000"
+  },
+  {
+    "_id": "6a6037998715fdf077d8294f",
+    "userId": "6a4094918f1f8d428376d6a3",
+    "playerId": 23,
+    "playerName": "Alexis Mac Allister",
+    "rarity": "Uncommon",
+    "image": "assets/images/uncommon/alexis-mac-allister.png",
+    "serial": "SR-00000221",
+    "obtainedAt": "2026-07-22T03:23:05.827000"
+  },
+  {
+    "_id": "6a6037998715fdf077d82950",
+    "userId": "6a4094918f1f8d428376d6a3",
+    "playerId": 13,
+    "playerName": "Morten Hjulmand",
+    "rarity": "Common",
+    "image": "assets/images/common/morten-hjulmand.png",
+    "serial": "SR-00000222",
+    "obtainedAt": "2026-07-22T03:23:05.839000"
+  },
+  {
+    "_id": "6a6037998715fdf077d82951",
+    "userId": "6a4094918f1f8d428376d6a3",
+    "playerId": 68,
+    "playerName": "Harry Kane",
+    "rarity": "Epic",
+    "image": "assets/images/epic/harry-kane.webp",
+    "serial": "SR-00000223",
+    "obtainedAt": "2026-07-22T03:23:05.850000"
+  },
+  {
+    "_id": "6a6037998715fdf077d82952",
+    "userId": "6a4094918f1f8d428376d6a3",
+    "playerId": 24,
+    "playerName": "Declan Rice",
+    "rarity": "Uncommon",
+    "image": "assets/images/uncommon/declan-rice.webp",
+    "serial": "SR-00000224",
+    "obtainedAt": "2026-07-22T03:23:05.858000"
+  },
+  {
+    "_id": "6a6037998715fdf077d82953",
+    "userId": "6a4094918f1f8d428376d6a3",
+    "playerId": 1,
+    "playerName": "Eliesse Ben Seghir",
+    "rarity": "Common",
+    "image": "assets/images/common/eliesse-ben-seghir.png",
+    "serial": "SR-00000225",
+    "obtainedAt": "2026-07-22T03:23:05.864000"
+  },
+  {
+    "_id": "6a6037f78715fdf077d82954",
+    "userId": "6a4094918f1f8d428376d6a3",
+    "playerId": 6,
+    "playerName": "Rasmus Hojlund",
+    "rarity": "Common",
+    "image": "assets/images/common/rasmus-hojlund.png",
+    "serial": "SR-00000226",
+    "obtainedAt": "2026-07-22T03:24:39.509000"
+  },
+  {
+    "_id": "6a6037f78715fdf077d82955",
+    "userId": "6a4094918f1f8d428376d6a3",
+    "playerId": 6,
+    "playerName": "Rasmus Hojlund",
+    "rarity": "Common",
+    "image": "assets/images/common/rasmus-hojlund.png",
+    "serial": "SR-00000227",
+    "obtainedAt": "2026-07-22T03:24:39.520000"
+  },
+  {
+    "_id": "6a6037f78715fdf077d82956",
+    "userId": "6a4094918f1f8d428376d6a3",
+    "playerId": 118,
+    "playerName": "Ole Romeny",
+    "rarity": "Common",
+    "image": "assets/images/common/ole-romeny.png",
+    "serial": "SR-00000228",
+    "obtainedAt": "2026-07-22T03:24:39.531000"
+  },
+  {
+    "_id": "6a6037f78715fdf077d82957",
+    "userId": "6a4094918f1f8d428376d6a3",
+    "playerId": 13,
+    "playerName": "Morten Hjulmand",
+    "rarity": "Common",
+    "image": "assets/images/common/morten-hjulmand.png",
+    "serial": "SR-00000229",
+    "obtainedAt": "2026-07-22T03:24:39.541000"
+  },
+  {
+    "_id": "6a6037f78715fdf077d82958",
+    "userId": "6a4094918f1f8d428376d6a3",
+    "playerId": 15,
+    "playerName": "Igor Paixao",
+    "rarity": "Common",
+    "image": "assets/images/common/igor-paixao.png",
+    "serial": "SR-00000230",
+    "obtainedAt": "2026-07-22T03:24:39.551000"
+  },
+  {
+    "_id": "6a603fc18715fdf077d82959",
+    "userId": "6a4094918f1f8d428376d6a3",
+    "playerId": 12,
+    "playerName": "Yunus Musah",
+    "rarity": "Common",
+    "image": "assets/images/common/yunus-musah.png",
+    "serial": "SR-00000231",
+    "obtainedAt": "2026-07-22T03:57:53.456000"
+  },
+  {
+    "_id": "6a603fc18715fdf077d8295a",
+    "userId": "6a4094918f1f8d428376d6a3",
+    "playerId": 63,
+    "playerName": "Bernardo Silva",
+    "rarity": "Epic",
+    "image": "assets/images/epic/bernardo-silva.webp",
+    "serial": "SR-00000232",
+    "obtainedAt": "2026-07-22T03:57:53.466000"
+  },
+  {
+    "_id": "6a603fc18715fdf077d8295b",
+    "userId": "6a4094918f1f8d428376d6a3",
+    "playerId": 118,
+    "playerName": "Ole Romeny",
+    "rarity": "Common",
+    "image": "assets/images/common/ole-romeny.png",
+    "serial": "SR-00000233",
+    "obtainedAt": "2026-07-22T03:57:53.479000"
+  },
+  {
+    "_id": "6a603fc18715fdf077d8295c",
+    "userId": "6a4094918f1f8d428376d6a3",
+    "playerId": 10,
+    "playerName": "Riccardo Calafiori",
+    "rarity": "Common",
+    "image": "assets/images/common/riccardo-calafiori.png",
+    "serial": "SR-00000234",
+    "obtainedAt": "2026-07-22T03:57:53.489000"
+  },
+  {
+    "_id": "6a603fc18715fdf077d8295d",
+    "userId": "6a4094918f1f8d428376d6a3",
+    "playerId": 12,
+    "playerName": "Yunus Musah",
+    "rarity": "Common",
+    "image": "assets/images/common/yunus-musah.png",
+    "serial": "SR-00000235",
+    "obtainedAt": "2026-07-22T03:57:53.498000"
+  },
+  {
+    "_id": "6a60681d08f12a2425769a6c",
+    "userId": "6a4094918f1f8d428376d6a3",
+    "playerId": 9,
+    "playerName": "Micky van de Ven",
+    "rarity": "Common",
+    "image": "assets/images/common/micky-van-de-ven.png",
+    "serial": "SR-00000236",
+    "obtainedAt": "2026-07-22T06:50:05.912000"
+  },
+  {
+    "_id": "6a60681d08f12a2425769a6d",
+    "userId": "6a4094918f1f8d428376d6a3",
+    "playerId": 41,
+    "playerName": "Alphonso Davies",
+    "rarity": "Rare",
+    "image": "assets/images/rare/alphonso-davies.jpeg",
+    "serial": "SR-00000237",
+    "obtainedAt": "2026-07-22T06:50:05.941000"
+  },
+  {
+    "_id": "6a60681d08f12a2425769a6e",
+    "userId": "6a4094918f1f8d428376d6a3",
+    "playerId": 13,
+    "playerName": "Morten Hjulmand",
+    "rarity": "Common",
+    "image": "assets/images/common/morten-hjulmand.png",
+    "serial": "SR-00000238",
+    "obtainedAt": "2026-07-22T06:50:05.950000"
+  },
+  {
+    "_id": "6a60681d08f12a2425769a6f",
+    "userId": "6a4094918f1f8d428376d6a3",
+    "playerId": 34,
+    "playerName": "Phil Foden",
+    "rarity": "Rare",
+    "image": "assets/images/rare/phil-foden.jpeg",
+    "serial": "SR-00000239",
+    "obtainedAt": "2026-07-22T06:50:05.956000"
+  },
+  {
+    "_id": "6a60681d08f12a2425769a70",
+    "userId": "6a4094918f1f8d428376d6a3",
+    "playerId": 3,
+    "playerName": "Arda Guler",
+    "rarity": "Rare",
+    "image": "assets/images/rare/arda-guler.png",
+    "serial": "SR-00000240",
+    "obtainedAt": "2026-07-22T06:50:05.960000"
+  },
+  {
+    "_id": "6a60683308f12a2425769a71",
+    "userId": "6a56f05589cbca7628de6f81",
+    "playerId": 78,
+    "playerName": "Jamal Musiala",
+    "rarity": "Mythic",
+    "image": "assets/images/mythic/jamal-musiala.webp",
+    "serial": "SR-00000241",
+    "obtainedAt": "2026-07-22T06:50:27.690000"
+  },
+  {
+    "_id": "6a60683308f12a2425769a72",
+    "userId": "6a56f05589cbca7628de6f81",
+    "playerId": 16,
+    "playerName": "Jhon Lucumi",
+    "rarity": "Common",
+    "image": "assets/images/common/jhon-lucumi.png",
+    "serial": "SR-00000242",
+    "obtainedAt": "2026-07-22T06:50:27.694000"
+  },
+  {
+    "_id": "6a60683308f12a2425769a73",
+    "userId": "6a56f05589cbca7628de6f81",
+    "playerId": 17,
+    "playerName": "Ronald Araujo",
+    "rarity": "Common",
+    "image": "assets/images/common/ronald-araujo.png",
+    "serial": "SR-00000243",
+    "obtainedAt": "2026-07-22T06:50:27.698000"
+  },
+  {
+    "_id": "6a60683308f12a2425769a74",
+    "userId": "6a56f05589cbca7628de6f81",
+    "playerId": 10,
+    "playerName": "Riccardo Calafiori",
+    "rarity": "Common",
+    "image": "assets/images/common/riccardo-calafiori.png",
+    "serial": "SR-00000244",
+    "obtainedAt": "2026-07-22T06:50:27.701000"
+  },
+  {
+    "_id": "6a60683308f12a2425769a75",
+    "userId": "6a56f05589cbca7628de6f81",
+    "playerId": 2,
+    "playerName": "Benjamin Sesko",
+    "rarity": "Common",
+    "image": "assets/images/common/benjamin-sesko.png",
+    "serial": "SR-00000245",
+    "obtainedAt": "2026-07-22T06:50:27.704000"
+  },
+  {
+    "_id": "6a60689408f12a2425769a76",
+    "userId": "6a460c124cd70a076d1dfbb8",
+    "playerId": 43,
+    "playerName": "William Saliba",
+    "rarity": "Rare",
+    "image": "assets/images/rare/william-saliba.jpeg",
+    "serial": "SR-00000246",
+    "obtainedAt": "2026-07-22T06:52:04.282000"
+  },
+  {
+    "_id": "6a60689408f12a2425769a77",
+    "userId": "6a460c124cd70a076d1dfbb8",
+    "playerId": 27,
+    "playerName": "Alessandro Bastoni",
+    "rarity": "Uncommon",
+    "image": "assets/images/uncommon/alessandro-bastoni.webp",
+    "serial": "SR-00000247",
+    "obtainedAt": "2026-07-22T06:52:04.289000"
+  },
+  {
+    "_id": "6a60689408f12a2425769a78",
+    "userId": "6a460c124cd70a076d1dfbb8",
+    "playerId": 30,
+    "playerName": "Mike Maignan",
+    "rarity": "Uncommon",
+    "image": "assets/images/uncommon/mike-maignan.webp",
+    "serial": "SR-00000248",
+    "obtainedAt": "2026-07-22T06:52:04.294000"
+  },
+  {
+    "_id": "6a60689408f12a2425769a79",
+    "userId": "6a460c124cd70a076d1dfbb8",
+    "playerId": 6,
+    "playerName": "Rasmus Hojlund",
+    "rarity": "Common",
+    "image": "assets/images/common/rasmus-hojlund.png",
+    "serial": "SR-00000249",
+    "obtainedAt": "2026-07-22T06:52:04.300000"
+  },
+  {
+    "_id": "6a60689408f12a2425769a7a",
+    "userId": "6a460c124cd70a076d1dfbb8",
+    "playerId": 29,
+    "playerName": "Jules Kounde",
+    "rarity": "Uncommon",
+    "image": "assets/images/uncommon/jules-kounde.webp",
+    "serial": "SR-00000250",
+    "obtainedAt": "2026-07-22T06:52:04.306000"
+  }
+]

@@ -1,0 +1,114 @@
+[
+  {
+    "_id": "6a52de1caa4c4d873cd0bd61",
+    "token": "FCG-HSX28HV45KBA0FY5",
+    "discordId": "1370311425431699517",
+    "discordName": "leonz0121_71147",
+    "status": "used",
+    "reward": {
+      "type": "pulls",
+      "amount": 10,
+      "description": "+10 Pull Premium"
+    },
+    "expiredAt": "2026-08-11T00:21:48.514000",
+    "usedAt": "2026-07-12T00:24:48.925000",
+    "usedBy": "6a4094918f1f8d428376d6a3",
+    "createdAt": "2026-07-12T00:21:48.514000"
+  },
+  {
+    "_id": "6a52df70aa4c4d873cd0bd62",
+    "token": "FCG-X9ROKS6WNXUWQWAA",
+    "discordId": "1370311425431699517",
+    "discordName": "leonz0121_71147",
+    "status": "used",
+    "reward": {
+      "type": "pulls",
+      "amount": 10,
+      "description": "+10 Pull Premium"
+    },
+    "expiredAt": "2026-08-11T00:27:28.709000",
+    "usedAt": "2026-07-14T06:18:37.280000",
+    "usedBy": "6a4094918f1f8d428376d6a3",
+    "createdAt": "2026-07-12T00:27:28.709000"
+  },
+  {
+    "_id": "6a55d4fda8508eb4baf9e2ca",
+    "token": "FCG-7FTDU3EQJ1UAFEGT",
+    "discordId": "1370311425431699517",
+    "discordName": "leonz0121_71147",
+    "status": "used",
+    "reward": {
+      "type": "pulls",
+      "amount": 10,
+      "description": "+10 Pull Premium"
+    },
+    "expiredAt": "2026-08-13T06:19:41.609000",
+    "usedAt": "2026-07-14T06:19:49.862000",
+    "usedBy": "6a4094918f1f8d428376d6a3",
+    "createdAt": "2026-07-14T06:19:41.610000"
+  },
+  {
+    "_id": "6a55d56fa8508eb4baf9e2cb",
+    "token": "FCG-BGEJR9K48ML66YBP",
+    "discordId": "1370311425431699517",
+    "discordName": "leonz0121_71147",
+    "status": "used",
+    "reward": {
+      "type": "pulls",
+      "amount": 10,
+      "description": "+10 Pull Premium"
+    },
+    "expiredAt": "2026-08-13T06:21:35.626000",
+    "usedAt": "2026-07-14T06:33:25.756000",
+    "usedBy": "6a4094918f1f8d428376d6a3",
+    "createdAt": "2026-07-14T06:21:35.626000"
+  },
+  {
+    "_id": "6a55d5bca8508eb4baf9e2cc",
+    "token": "FCG-PSN63CVXG48JLBML",
+    "discordId": "742747836004696086",
+    "discordName": "bt2072007",
+    "status": "active",
+    "reward": {
+      "type": "pulls",
+      "amount": 10,
+      "description": "+10 Pull Premium"
+    },
+    "expiredAt": "2026-08-13T06:22:52.405000",
+    "usedAt": null,
+    "usedBy": null,
+    "createdAt": "2026-07-14T06:22:52.405000"
+  },
+  {
+    "_id": "6a603fa7e065e29ca0fdbdd4",
+    "token": "FCG-1Q208YIPLUZ2BX1H",
+    "discordId": "1370311425431699517",
+    "discordName": "leonz0121_71147",
+    "status": "used",
+    "reward": {
+      "type": "pulls",
+      "amount": 10,
+      "description": "+10 Pull Premium"
+    },
+    "expiredAt": "2026-08-21T03:57:27.081000",
+    "usedAt": "2026-07-22T03:57:49.839000",
+    "usedBy": "6a4094918f1f8d428376d6a3",
+    "createdAt": "2026-07-22T03:57:27.082000"
+  },
+  {
+    "_id": "6a60425dff72cfaa01bff433",
+    "token": "FCG-EBN5GTDKIZII9Q6I",
+    "discordId": "1370311425431699517",
+    "discordName": "leonz0121_71147",
+    "status": "active",
+    "reward": {
+      "type": "pulls",
+      "amount": 10,
+      "description": "+10 Pull Premium"
+    },
+    "expiredAt": "2026-08-21T04:09:01.344000",
+    "usedAt": null,
+    "usedBy": null,
+    "createdAt": "2026-07-22T04:09:01.345000"
+  }
+]

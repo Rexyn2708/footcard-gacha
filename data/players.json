@@ -1,0 +1,710 @@
+[
+  {
+    "id": 1,
+    "name": "Eliesse Ben Seghir",
+    "rarity": "Common",
+    "image": "assets/images/common/eliesse-ben-seghir.png"
+  },
+  {
+    "id": 2,
+    "name": "Benjamin Sesko",
+    "rarity": "Common",
+    "image": "assets/images/common/benjamin-sesko.png"
+  },
+  {
+    "id": 3,
+    "name": "Arda Guler",
+    "rarity": "Rare",
+    "image": "assets/images/rare/arda-guler.png"
+  },
+  {
+    "id": 4,
+    "name": "Endrick",
+    "rarity": "Common",
+    "image": "assets/images/common/endrick.png"
+  },
+  {
+    "id": 5,
+    "name": "Alejandro Garnacho",
+    "rarity": "Common",
+    "image": "assets/images/common/alejandro-garnacho.png"
+  },
+  {
+    "id": 6,
+    "name": "Rasmus Hojlund",
+    "rarity": "Common",
+    "image": "assets/images/common/rasmus-hojlund.png"
+  },
+  {
+    "id": 7,
+    "name": "Joao Gomes",
+    "rarity": "Common",
+    "image": "assets/images/common/joao-gomes.png"
+  },
+  {
+    "id": 8,
+    "name": "Levi Colwill",
+    "rarity": "Common",
+    "image": "assets/images/common/levi-colwill.png"
+  },
+  {
+    "id": 9,
+    "name": "Micky van de Ven",
+    "rarity": "Common",
+    "image": "assets/images/common/micky-van-de-ven.png"
+  },
+  {
+    "id": 10,
+    "name": "Riccardo Calafiori",
+    "rarity": "Common",
+    "image": "assets/images/common/riccardo-calafiori.png"
+  },
+  {
+    "id": 11,
+    "name": "Piero Hincapie",
+    "rarity": "Common",
+    "image": "assets/images/common/piero-hincapie.png"
+  },
+  {
+    "id": 12,
+    "name": "Yunus Musah",
+    "rarity": "Common",
+    "image": "assets/images/common/yunus-musah.png"
+  },
+  {
+    "id": 13,
+    "name": "Morten Hjulmand",
+    "rarity": "Common",
+    "image": "assets/images/common/morten-hjulmand.png"
+  },
+  {
+    "id": 14,
+    "name": "Ismael Bennacer",
+    "rarity": "Common",
+    "image": "assets/images/common/ismael-bennacer.png"
+  },
+  {
+    "id": 15,
+    "name": "Igor Paixao",
+    "rarity": "Common",
+    "image": "assets/images/common/igor-paixao.png"
+  },
+  {
+    "id": 16,
+    "name": "Jhon Lucumi",
+    "rarity": "Common",
+    "image": "assets/images/common/jhon-lucumi.png"
+  },
+  {
+    "id": 17,
+    "name": "Ronald Araujo",
+    "rarity": "Common",
+    "image": "assets/images/common/ronald-araujo.png"
+  },
+  {
+    "id": 18,
+    "name": "Xavi Simons",
+    "rarity": "Uncommon",
+    "image": "assets/images/uncommon/xavi-simons.png"
+  },
+  {
+    "id": 19,
+    "name": "Desire Doue",
+    "rarity": "Uncommon",
+    "image": "assets/images/uncommon/desire-doue.png"
+  },
+  {
+    "id": 20,
+    "name": "Alexander Isak",
+    "rarity": "Uncommon",
+    "image": "assets/images/uncommon/alexander-isak.png"
+  },
+  {
+    "id": 21,
+    "name": "Jonathan David",
+    "rarity": "Uncommon",
+    "image": "assets/images/uncommon/jonathan-david.png"
+  },
+  {
+    "id": 22,
+    "name": "Marcus Thuram",
+    "rarity": "Uncommon",
+    "image": "assets/images/uncommon/marcus-thuram.png"
+  },
+  {
+    "id": 23,
+    "name": "Alexis Mac Allister",
+    "rarity": "Uncommon",
+    "image": "assets/images/uncommon/alexis-mac-allister.png"
+  },
+  {
+    "id": 24,
+    "name": "Declan Rice",
+    "rarity": "Uncommon",
+    "image": "assets/images/uncommon/declan-rice.webp"
+  },
+  {
+    "id": 25,
+    "name": "Bruno Guimaraes",
+    "rarity": "Uncommon",
+    "image": "assets/images/uncommon/bruno-guimaraes.webp"
+  },
+  {
+    "id": 26,
+    "name": "Nicolo Barella",
+    "rarity": "Uncommon",
+    "image": "assets/images/uncommon/nicolo-barella.webp"
+  },
+  {
+    "id": 27,
+    "name": "Alessandro Bastoni",
+    "rarity": "Uncommon",
+    "image": "assets/images/uncommon/alessandro-bastoni.webp"
+  },
+  {
+    "id": 28,
+    "name": "Federico Dimarco",
+    "rarity": "Uncommon",
+    "image": "assets/images/uncommon/federico-dimarco.webp"
+  },
+  {
+    "id": 29,
+    "name": "Jules Kounde",
+    "rarity": "Uncommon",
+    "image": "assets/images/uncommon/jules-kounde.webp"
+  },
+  {
+    "id": 30,
+    "name": "Mike Maignan",
+    "rarity": "Uncommon",
+    "image": "assets/images/uncommon/mike-maignan.webp"
+  },
+  {
+    "id": 31,
+    "name": "Gianluigi Donnarumma",
+    "rarity": "Uncommon",
+    "image": "assets/images/uncommon/gianluigi-donnarumma.webp"
+  },
+  {
+    "id": 32,
+    "name": "Bukayo Saka",
+    "rarity": "Rare",
+    "image": "assets/images/rare/bukayo-saka.jpeg"
+  },
+  {
+    "id": 33,
+    "name": "Cole Palmer",
+    "rarity": "Rare",
+    "image": "assets/images/rare/cole-palmer.jpeg"
+  },
+  {
+    "id": 34,
+    "name": "Phil Foden",
+    "rarity": "Rare",
+    "image": "assets/images/rare/phil-foden.jpeg"
+  },
+  {
+    "id": 35,
+    "name": "Khvicha Kvaratskhelia",
+    "rarity": "Rare",
+    "image": "assets/images/rare/khvicha-kvaratskhelia.jpeg"
+  },
+  {
+    "id": 36,
+    "name": "Rafael Leao",
+    "rarity": "Rare",
+    "image": "assets/images/rare/rafael-leao.jpeg"
+  },
+  {
+    "id": 37,
+    "name": "Federico Valverde",
+    "rarity": "Rare",
+    "image": "assets/images/rare/federico-valverde.jpeg"
+  },
+  {
+    "id": 38,
+    "name": "Rodrygo",
+    "rarity": "Rare",
+    "image": "assets/images/rare/rodrygo.jpeg"
+  },
+  {
+    "id": 39,
+    "name": "Martin Odegaard",
+    "rarity": "Rare",
+    "image": "assets/images/rare/martin-odegaard.jpeg"
+  },
+  {
+    "id": 40,
+    "name": "Achraf Hakimi",
+    "rarity": "Rare",
+    "image": "assets/images/rare/achraf-hakimi.jpeg"
+  },
+  {
+    "id": 41,
+    "name": "Alphonso Davies",
+    "rarity": "Rare",
+    "image": "assets/images/rare/alphonso-davies.jpeg"
+  },
+  {
+    "id": 42,
+    "name": "Theo Hernandez",
+    "rarity": "Rare",
+    "image": "assets/images/rare/theo-hernandez.jpeg"
+  },
+  {
+    "id": 43,
+    "name": "William Saliba",
+    "rarity": "Rare",
+    "image": "assets/images/rare/william-saliba.jpeg"
+  },
+  {
+    "id": 44,
+    "name": "Ruben Dias",
+    "rarity": "Rare",
+    "image": "assets/images/rare/ruben-dias.jpeg"
+  },
+  {
+    "id": 45,
+    "name": "Julian Alvarez",
+    "rarity": "Rare",
+    "image": "assets/images/rare/julian-alvarez.jpeg"
+  },
+  {
+    "id": 46,
+    "name": "Lautaro Martinez",
+    "rarity": "Rare",
+    "image": "assets/images/rare/lautaro-martinez.jpeg"
+  },
+  {
+    "id": 47,
+    "name": "Robert Lewandowski",
+    "rarity": "Rare",
+    "image": "assets/images/rare/robert-lewandowski.jpeg"
+  },
+  {
+    "id": 48,
+    "name": "Omar Marmoush",
+    "rarity": "Rare",
+    "image": "assets/images/rare/omar-marmoush.jpeg"
+  },
+  {
+    "id": 49,
+    "name": "Victor Osimhen",
+    "rarity": "Rare",
+    "image": "assets/images/rare/victor-osimhen.jpeg"
+  },
+  {
+    "id": 50,
+    "name": "Nico Paz",
+    "rarity": "Rare",
+    "image": "assets/images/rare/nico-paz.jpeg"
+  },
+  {
+    "id": 51,
+    "name": "Joao Neves",
+    "rarity": "Rare",
+    "image": "assets/images/rare/joao-neves.jpeg"
+  },
+  {
+    "id": 52,
+    "name": "Viktor Gyokeres",
+    "rarity": "Rare",
+    "image": "assets/images/rare/viktor-gyokeres.jpeg"
+  },
+  {
+    "id": 53,
+    "name": "Florian Wirtz",
+    "rarity": "Epic",
+    "image": "assets/images/epic/florian-wirtz.webp"
+  },
+  {
+    "id": 54,
+    "name": "Jamal Musiala",
+    "rarity": "Epic",
+    "image": "assets/images/epic/jamal-musiala.webp"
+  },
+  {
+    "id": 55,
+    "name": "Vitinha",
+    "rarity": "Epic",
+    "image": "assets/images/epic/vitinha.webp"
+  },
+  {
+    "id": 56,
+    "name": "Michael Olise",
+    "rarity": "Epic",
+    "image": "assets/images/epic/michael-olise.webp"
+  },
+  {
+    "id": 57,
+    "name": "Pedri",
+    "rarity": "Epic",
+    "image": "assets/images/epic/pedri.webp"
+  },
+  {
+    "id": 58,
+    "name": "Vinicius Junior",
+    "rarity": "Epic",
+    "image": "assets/images/epic/vinicius-junior.webp"
+  },
+  {
+    "id": 59,
+    "name": "Bruno Fernandes",
+    "rarity": "Epic",
+    "image": "assets/images/epic/bruno-fernandes.webp"
+  },
+  {
+    "id": 60,
+    "name": "Kevin De Bruyne",
+    "rarity": "Epic",
+    "image": "assets/images/epic/kevin-de-bruyne.webp"
+  },
+  {
+    "id": 61,
+    "name": "Son Heung-min",
+    "rarity": "Epic",
+    "image": "assets/images/epic/son-heung-min.webp"
+  },
+  {
+    "id": 62,
+    "name": "Antoine Griezmann",
+    "rarity": "Epic",
+    "image": "assets/images/epic/antoine-griezmann.webp"
+  },
+  {
+    "id": 63,
+    "name": "Bernardo Silva",
+    "rarity": "Epic",
+    "image": "assets/images/epic/bernardo-silva.webp"
+  },
+  {
+    "id": 64,
+    "name": "Emiliano Martinez",
+    "rarity": "Epic",
+    "image": "assets/images/epic/emiliano-martinez.webp"
+  },
+  {
+    "id": 65,
+    "name": "Alisson Becker",
+    "rarity": "Epic",
+    "image": "assets/images/epic/alisson-becker.webp"
+  },
+  {
+    "id": 66,
+    "name": "Thibaut Courtois",
+    "rarity": "Epic",
+    "image": "assets/images/epic/thibaut-courtois.webp"
+  },
+  {
+    "id": 67,
+    "name": "Virgil van Dijk",
+    "rarity": "Epic",
+    "image": "assets/images/epic/virgil-van-dijk.webp"
+  },
+  {
+    "id": 68,
+    "name": "Harry Kane",
+    "rarity": "Epic",
+    "image": "assets/images/epic/harry-kane.webp"
+  },
+  {
+    "id": 69,
+    "name": "Kenan Yildiz",
+    "rarity": "Epic",
+    "image": "assets/images/epic/kenan-yildiz.webp"
+  },
+  {
+    "id": 70,
+    "name": "Kylian Mbappe",
+    "rarity": "Mythic",
+    "image": "assets/images/mythic/kylian-mbappe.webp"
+  },
+  {
+    "id": 71,
+    "name": "Erling Haaland",
+    "rarity": "Mythic",
+    "image": "assets/images/mythic/erling-haaland.webp"
+  },
+  {
+    "id": 72,
+    "name": "Jude Bellingham",
+    "rarity": "Mythic",
+    "image": "assets/images/mythic/jude-bellingham.webp"
+  },
+  {
+    "id": 73,
+    "name": "Mohamed Salah",
+    "rarity": "Mythic",
+    "image": "assets/images/mythic/mohamed-salah.webp"
+  },
+  {
+    "id": 74,
+    "name": "Lamine Yamal",
+    "rarity": "Mythic",
+    "image": "assets/images/mythic/lamine-yamal.webp"
+  },
+  {
+    "id": 75,
+    "name": "Vinicius Junior",
+    "rarity": "Mythic",
+    "image": "assets/images/mythic/vinicius-junior.webp"
+  },
+  {
+    "id": 76,
+    "name": "Harry Kane",
+    "rarity": "Mythic",
+    "image": "assets/images/mythic/harry-kane.webp"
+  },
+  {
+    "id": 77,
+    "name": "Rodri",
+    "rarity": "Mythic",
+    "image": "assets/images/mythic/rodri.webp"
+  },
+  {
+    "id": 78,
+    "name": "Jamal Musiala",
+    "rarity": "Mythic",
+    "image": "assets/images/mythic/jamal-musiala.webp"
+  },
+  {
+    "id": 79,
+    "name": "Florian Wirtz",
+    "rarity": "Mythic",
+    "image": "assets/images/mythic/florian-wirtz.avif"
+  },
+  {
+    "id": 80,
+    "name": "Pedri",
+    "rarity": "Mythic",
+    "image": "assets/images/mythic/pedri.webp"
+  },
+  {
+    "id": 81,
+    "name": "Bukayo Saka",
+    "rarity": "Mythic",
+    "image": "assets/images/mythic/bukayo-saka.webp"
+  },
+  {
+    "id": 82,
+    "name": "Ousmane Dembele",
+    "rarity": "Secret",
+    "image": "assets/images/secret/ousmane-dembele.png"
+  },
+  {
+    "id": 83,
+    "name": "Kylian Mbappe",
+    "rarity": "Secret",
+    "image": "assets/images/secret/kylian-mbappe.png"
+  },
+  {
+    "id": 84,
+    "name": "Erling Haaland",
+    "rarity": "Secret",
+    "image": "assets/images/secret/erling-haaland.png"
+  },
+  {
+    "id": 85,
+    "name": "Bruno Fernandes",
+    "rarity": "Secret",
+    "image": "assets/images/secret/bruno-fernandes.png"
+  },
+  {
+    "id": 86,
+    "name": "Lamine Yamal",
+    "rarity": "Secret",
+    "image": "assets/images/secret/lamine-yamal.png"
+  },
+  {
+    "id": 87,
+    "name": "Jude Bellingham",
+    "rarity": "Secret",
+    "image": "assets/images/secret/jude-bellingham.png"
+  },
+  {
+    "id": 88,
+    "name": "Vinicius Junior",
+    "rarity": "Secret",
+    "image": "assets/images/secret/vinicius-junior.png"
+  },
+  {
+    "id": 89,
+    "name": "Florian Wirtz",
+    "rarity": "Secret",
+    "image": "assets/images/secret/florian-wirtz.png"
+  },
+  {
+    "id": 90,
+    "name": "Jamal Musiala",
+    "rarity": "Secret",
+    "image": "assets/images/secret/jamal-musiala.png"
+  },
+  {
+    "id": 91,
+    "name": "Harry Kane",
+    "rarity": "Secret",
+    "image": "assets/images/secret/harry-kane.png"
+  },
+  {
+    "id": 92,
+    "name": "Rodri",
+    "rarity": "Secret",
+    "image": "assets/images/secret/rodri.webp"
+  },
+  {
+    "id": 93,
+    "name": "Vitinha",
+    "rarity": "Secret",
+    "image": "assets/images/secret/vitinha.webp"
+  },
+  {
+    "id": 94,
+    "name": "Michael Olise",
+    "rarity": "Secret",
+    "image": "assets/images/secret/michael-olise.webp"
+  },
+  {
+    "id": 95,
+    "name": "Mohamed Salah",
+    "rarity": "Secret",
+    "image": "assets/images/secret/mohamed-salah.webp"
+  },
+  {
+    "id": 96,
+    "name": "Lionel Messi",
+    "rarity": "Secret",
+    "image": "assets/images/secret/lionel-messi.webp"
+  },
+  {
+    "id": 97,
+    "name": "Cristiano Ronaldo",
+    "rarity": "Secret",
+    "image": "assets/images/secret/cristiano-ronaldo.webp"
+  },
+  {
+    "id": 98,
+    "name": "Pele",
+    "rarity": "Heritage",
+    "image": "assets/images/heritage/pele.png"
+  },
+  {
+    "id": 99,
+    "name": "Diego Maradona",
+    "rarity": "Heritage",
+    "image": "assets/images/heritage/diego-maradona.png"
+  },
+  {
+    "id": 100,
+    "name": "Johan Cruyff",
+    "rarity": "Heritage",
+    "image": "assets/images/heritage/johan-cruyff.png"
+  },
+  {
+    "id": 101,
+    "name": "Ronaldo Nazario",
+    "rarity": "Heritage",
+    "image": "assets/images/heritage/ronaldo-nazario.png"
+  },
+  {
+    "id": 102,
+    "name": "Zinedine Zidane",
+    "rarity": "Heritage",
+    "image": "assets/images/heritage/zinedine-zidane.png"
+  },
+  {
+    "id": 103,
+    "name": "Ronaldinho",
+    "rarity": "Heritage",
+    "image": "assets/images/heritage/ronaldinho.png"
+  },
+  {
+    "id": 104,
+    "name": "Franz Beckenbauer",
+    "rarity": "Heritage",
+    "image": "assets/images/heritage/franz-beckenbauer.png"
+  },
+  {
+    "id": 105,
+    "name": "Alfredo Di Stefano",
+    "rarity": "Heritage",
+    "image": "assets/images/heritage/alfredo-di-stefano.png"
+  },
+  {
+    "id": 106,
+    "name": "Marco van Basten",
+    "rarity": "Heritage",
+    "image": "assets/images/heritage/marco-van-basten.png"
+  },
+  {
+    "id": 107,
+    "name": "Eusebio",
+    "rarity": "Heritage",
+    "image": "assets/images/heritage/eusebio.png"
+  },
+  {
+    "id": 108,
+    "name": "Ferenc Puskas",
+    "rarity": "Heritage",
+    "image": "assets/images/heritage/ferenc-puskas.png"
+  },
+  {
+    "id": 109,
+    "name": "Lev Yashin",
+    "rarity": "Heritage",
+    "image": "assets/images/heritage/lev-yashin.png"
+  },
+  {
+    "id": 110,
+    "name": "Paolo Maldini",
+    "rarity": "Heritage",
+    "image": "assets/images/heritage/paolo-maldini.png"
+  },
+  {
+    "id": 111,
+    "name": "Franco Baresi",
+    "rarity": "Heritage",
+    "image": "assets/images/heritage/franco-baresi.png"
+  },
+  {
+    "id": 112,
+    "name": "Andres Iniesta",
+    "rarity": "Heritage",
+    "image": "assets/images/heritage/andres-iniesta.png"
+  },
+  {
+    "id": 113,
+    "name": "Xavi Hernandez",
+    "rarity": "Heritage",
+    "image": "assets/images/heritage/xavi-hernandez.png"
+  },
+  {
+    "id": 114,
+    "name": "Roberto Baggio",
+    "rarity": "Heritage",
+    "image": "assets/images/heritage/roberto-baggio.png"
+  },
+  {
+    "id": 115,
+    "name": "Zico",
+    "rarity": "Heritage",
+    "image": "assets/images/heritage/zico.png"
+  },
+  {
+    "id": 116,
+    "name": "Romario",
+    "rarity": "Heritage",
+    "image": "assets/images/heritage/romario.png"
+  },
+  {
+    "id": 117,
+    "name": "Garrincha",
+    "rarity": "Heritage",
+    "image": "assets/images/heritage/garrincha.png"
+  },
+  {
+    "id": 118,
+    "name": "Ole Romeny",
+    "rarity": "Common",
+    "image": "assets/images/common/ole-romeny.png"
+  }
+]

@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FootCard Gacha — Admin Panel</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { background: #08111e; font-family: 'Segoe UI', sans-serif; color: #fff; }
+
+    .navbar { background: #0b1829; padding: 0 2rem; height: 56px; display: flex; justify-content: space-between; align-items: center; border-bottom: 2px solid #00e664; }
+    .navbar h1 { color: #00e664; font-size: 1.1rem; font-weight: 700; }
+    .navbar-right { display: flex; gap: 1rem; align-items: center; }
+    .nav-user { font-size: 12px; color: #aaa; }
+
+    .btn { padding: 7px 16px; border-radius: 8px; border: none; cursor: pointer; font-size: 13px; font-weight: 600; transition: all 0.2s; }
+    .btn-green  { background: #00e664; color: #000; }
+    .btn-green:hover { background: #00ff77; }
+    .btn-red    { background: #ff4444; color: #fff; }
+    .btn-red:hover { background: #ff6666; }
+    .btn-blue   { background: #00aaff; color: #000; }
+    .btn-blue:hover { background: #33bbff; }
+    .btn-yellow { background: #f5c842; color: #000; }
+    .btn-yellow:hover { background: #ffd54f; }
+    .btn-outline { background: transparent; color: #aaa; border: 1px solid #1a2a1a; }
+    .btn-outline:hover { color: #fff; border-color: #aaa; }
+    .btn-sm { padding: 4px 10px; font-size: 11px; }
+    .btn-xs { padding: 3px 8px; font-size: 10px; }
+
+    .container { max-width: 1200px; margin: 0 auto; padding: 1.5rem; }
+
+    /* STAT GRID */
+    .stat-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1rem; margin-bottom: 1.5rem; }
+    .stat-card { background: #0b1829; border: 1px solid #0f2a14; border-radius: 12px; padding: 1.2rem; text-align: center; }
+    .stat-number { font-size: 2rem; font-weight: 700; color: #00e664; }
+    .stat-label { color: #3a5a3a; font-size: 12px; margin-top: 4px; }
+
+    /* TABS */
+    .tabs { display: flex; gap: 6px; margin-bottom: 1.5rem; background: #050e1a; border: 1px solid #0f2a14; border-radius: 12px; padding: 5px; width: fit-content; }
+    .tab { padding: 8px 18px; border-radius: 8px; cursor: pointer; background: transparent; border: none; color: #3a5a3a; font-size: 13px; font-weight: 600; transition: all 0.2s; display: flex; align-items: center; gap: 6px; }
+    .tab.active { background: #00e66415; color: #00e664; border: 1px solid #00e66430; }
+    .tab:hover:not(.active) { color: #aaa; background: #ffffff08; }
+
+    /* PANEL */
+    .panel { display: none; }
+    .panel.active { display: block; }
+
+    /* CARD */
+    .card { background: #0b1829; border: 1px solid #0f2a14; border-radius: 14px; padding: 1.5rem; margin-bottom: 1rem; }
+    .card h2 { font-size: 16px; font-weight: 700; color: #00e664; margin-bottom: 1rem; display: flex; align-items: center; gap: 8px; }
+
+    /* FORM */
+    .form-group { margin-bottom: 1rem; }
+    .form-group label { display: block; margin-bottom: 5px; color: #3a5a3a; font-size: 12px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px; }
+    .form-group input, .form-group select, .form-group textarea {
+      width: 100%; padding: 10px 12px; border-radius: 9px;
+      border: 1px solid #0f2a14; background: #050e1a;
+      color: #fff; font-size: 13px; outline: none; transition: border-color 0.2s;
+    }
+    .form-group input:focus, .form-group select:focus { border-color: #00e664; }
+    .form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
+
+    /* TABLE */
+    table { width: 100%; border-collapse: collapse; }
+    th, td { padding: 10px 12px; text-align: left; border-bottom: 1px solid #0f2a14; font-size: 12px; }
+    th { color: #00e664; background: #050e1a; font-weight: 700; font-size: 11px; text-transform: uppercase; letter-spacing: 0.5px; }
+    tr:hover td { background: #ffffff03; }
+
+    /* BADGE */
+    .badge { padding: 3px 9px; border-radius: 5px; font-size: 10px; font-weight: 700; letter-spacing: 0.5px; }
+    .badge-admin     { background: #00e66420; color: #00e664; }
+    .badge-developer { background: #00aaff20; color: #00aaff; }
+    .badge-user      { background: #ffffff15; color: #aaa; }
+
+    .badge-common   { background: #55555520; color: #888; }
+    .badge-uncommon { background: #1abc9c20; color: #1abc9c; }
+    .badge-rare     { background: #00e66420; color: #00e664; }
+    .badge-epic     { background: #b07cff20; color: #b07cff; }
+    .badge-mythic   { background: #ff444420; color: #ff4444; }
+    .badge-secret   { background: #00aaff20; color: #00aaff; }
+    .badge-heritage { background: #f5c84220; color: #f5c842; }
+
+    /* ALERT */
+    .alert { padding: 10px 14px; border-radius: 9px; margin-bottom: 1rem; font-size: 12px; font-weight: 500; display: none; }
+    .alert-success { background: #00e66415; color: #00e664; border: 1px solid #00e66430; }
+    .alert-error   { background: #ff444415; color: #ff4444; border: 1px solid #ff444430; }
+
+    /* IMG PREVIEW */
+    .img-preview { width: 70px; height: 70px; object-fit: cover; border-radius: 8px; border: 1px solid #0f2a14; }
+
+    /* EDIT USER MODAL */
+    .modal-backdrop { position: fixed; inset: 0; background: #000000b0; display: none; align-items: center; justify-content: center; z-index: 1000; backdrop-filter: blur(5px); }
+    .modal-backdrop.show { display: flex; }
+    .modal-box { background: #0b1829; border: 1px solid #0f2a14; border-radius: 16px; padding: 1.5rem; width: 420px; max-width: 90vw; }
+    .modal-box h3 { font-size: 16px; font-weight: 700; margin-bottom: 1.2rem; color: #00e664; }
+    .modal-actions { display: flex; gap: 8px; justify-content: flex-end; margin-top: 1.2rem; }
+
+    /* SECTION DIVIDER */
+    .sdiv { display: flex; align-items: center; gap: 8px; margin-bottom: 12px; }
+    .sdiv::before { content: ''; width: 3px; height: 14px; background: #00e664; border-radius: 2px; }
+    .sdiv span { font-size: 11px; font-weight: 700; color: #3a5a3a; text-transform: uppercase; letter-spacing: 1px; }
+  </style>
+</head>
+<body>
+
+<nav class="navbar">
+  <h1>⚽ FootCard Gacha — Admin Panel</h1>
+  <div class="navbar-right">
+    <span class="nav-user">👤 <span id="adminName">—</span> · <span id="adminRole" style="color:#00e664;">—</span></span>
+    <button class="btn btn-red btn-sm" onclick="adminLogout()">Logout</button>
+    <a href="/" style="color:#00e664; font-size:12px;">← Ke Web</a>
+  </div>
+</nav>
+
+<div class="container">
+
+  <!-- STATS -->
+  <div class="stat-grid" id="statGrid">
+    <div class="stat-card"><div class="stat-number" id="statUsers">—</div><div class="stat-label">Total User</div></div>
+    <div class="stat-card"><div class="stat-number" id="statPlayers">—</div><div class="stat-label">Total Pemain</div></div>
+    <div class="stat-card"><div class="stat-number" id="statCodes">—</div><div class="stat-label">Redeem Code</div></div>
+    <div class="stat-card"><div class="stat-number" id="statCards">—</div><div class="stat-label">Total Kartu Ditarik</div></div>
+  </div>
+
+  <!-- TABS -->
+  <div class="tabs">
+    <button class="tab active" onclick="switchTab('players')">👤 Kelola Pemain</button>
+    <button class="tab" onclick="switchTab('redeem')">🎁 Kelola Redeem</button>
+    <button class="tab" onclick="switchTab('users')">👥 Kelola User</button>
+  </div>
+
+  <!-- PANEL: PLAYERS -->
+  <div class="panel active" id="panel-players">
+    <div class="card">
+      <h2>➕ Tambah Pemain Baru</h2>
+      <div id="alertPlayer" class="alert"></div>
+      <div class="form-row">
+        <div class="form-group">
+          <label>Nama Pemain</label>
+          <input type="text" id="playerName" placeholder="Contoh: Lionel Messi">
+        </div>
+        <div class="form-group">
+          <label>Rarity</label>
+          <select id="playerRarity">
+            <option value="Common">● Common</option>
+            <option value="Uncommon">🍀 Uncommon</option>
+            <option value="Rare">💎 Rare</option>
+            <option value="Epic">✦ Epic</option>
+            <option value="Mythic">🔥 Mythic</option>
+            <option value="Secret">☄️ Secret</option>
+            <option value="Heritage">👑 Heritage</option>
+          </select>
+        </div>
+      </div>
+      <div class="form-group">
+        <label>Foto Pemain</label>
+        <input type="file" id="playerImage" accept="image/*" onchange="previewImage(this)">
+        <img id="imagePreview" class="img-preview" style="display:none; margin-top:8px;">
+      </div>
+      <button class="btn btn-green" onclick="addPlayer()">Tambah Pemain</button>
+    </div>
+
+    <div class="card">
+      <h2>📋 Daftar Pemain</h2>
+      <table>
+        <thead><tr><th>ID</th><th>Nama</th><th>Rarity</th><th>Foto</th><th>Aksi</th></tr></thead>
+        <tbody id="playerTable"><tr><td colspan="5" style="color:#3a5a3a;text-align:center;">Memuat data...</td></tr></tbody>
+      </table>
+    </div>
+  </div>
+
+  <!-- PANEL: REDEEM -->
+  <div class="panel" id="panel-redeem">
+    <div class="card">
+      <h2>➕ Tambah Redeem Code</h2>
+      <div id="alertRedeem" class="alert"></div>
+      <div class="form-row">
+        <div class="form-group">
+          <label>Kode</label>
+          <input type="text" id="redeemCodeInput" placeholder="Contoh: BONUS2025">
+        </div>
+        <div class="form-group">
+          <label>Tipe Reward</label>
+          <select id="redeemType" onchange="toggleRedeemType()">
+            <option value="pulls">Pulls</option>
+            <option value="player">Kartu Pemain</option>
+          </select>
+        </div>
+      </div>
+      <div id="redeemPullsGroup" class="form-group">
+        <label>Jumlah Pull</label>
+        <input type="number" id="redeemAmount" placeholder="Contoh: 10" min="1">
+      </div>
+      <div id="redeemPlayerGroup" class="form-group" style="display:none;">
+        <label>ID Pemain</label>
+        <input type="number" id="redeemPlayerId" placeholder="ID pemain">
+      </div>
+      <div class="form-group">
+        <label>Deskripsi</label>
+        <input type="text" id="redeemDesc" placeholder="Contoh: Bonus 10 Pull Spesial">
+      </div>
+      <button class="btn btn-green" onclick="addRedeemCode()">Tambah Kode</button>
+    </div>
+
+    <div class="card">
+      <h2>📋 Daftar Redeem Code</h2>
+      <table>
+        <thead><tr><th>Kode</th><th>Tipe</th><th>Reward</th><th>Deskripsi</th><th>Aksi</th></tr></thead>
+        <tbody id="redeemTable"><tr><td colspan="5" style="color:#3a5a3a;text-align:center;">Memuat data...</td></tr></tbody>
+      </table>
+    </div>
+  </div>
+
+  <!-- PANEL: USERS -->
+  <div class="panel" id="panel-users">
+    <div class="card">
+      <h2>👥 Daftar User</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Username</th>
+            <th>Email</th>
+            <th>Role</th>
+            <th>Pull Left</th>
+            <th>Bonus</th>
+            <th>Daftar</th>
+            <th>Aksi</th>
+          </tr>
+        </thead>
+        <tbody id="userTable"><tr><td colspan="7" style="color:#3a5a3a;text-align:center;">Memuat data...</td></tr></tbody>
+      </table>
+    </div>
+  </div>
+
+</div>
+
+<!-- MODAL EDIT USER -->
+<div class="modal-backdrop" id="editModal">
+  <div class="modal-box">
+    <h3>✏️ Edit User</h3>
+    <input type="hidden" id="editUserId">
+
+    <div class="sdiv"><span>Identitas</span></div>
+    <div class="form-group">
+      <label>Username</label>
+      <input type="text" id="editUsername" disabled style="opacity:0.5;">
+    </div>
+
+    <div class="sdiv"><span>Role</span></div>
+    <div class="form-group">
+      <label>Role User</label>
+      <select id="editRole">
+        <option value="user">user</option>
+        <option value="developer">developer</option>
+        <option value="admin">admin</option>
+      </select>
+    </div>
+
+    <div class="sdiv"><span>Pull</span></div>
+    <div class="form-row">
+      <div class="form-group">
+        <label>Pull Left (harian)</label>
+        <input type="number" id="editPullsLeft" min="0">
+      </div>
+      <div class="form-group">
+        <label>Bonus Pulls</label>
+        <input type="number" id="editBonusPulls" min="0">
+      </div>
+    </div>
+
+    <div id="alertEdit" class="alert"></div>
+
+    <div class="modal-actions">
+      <button class="btn btn-outline" onclick="closeEditModal()">Batal</button>
+      <button class="btn btn-green" onclick="saveEditUser()">Simpan</button>
+    </div>
+  </div>
+</div>
+
+<script src="api.js"></script>
+<script>
+const API = API_URL
+let currentRole = null
+function openEditPlayer(id, name, rarity) {
+  document.getElementById('editPlayerId').value     = id
+  document.getElementById('editPlayerName').value   = name
+  document.getElementById('editPlayerRarity').value = rarity
+  document.getElementById('editImagePreview').style.display = 'none'
+  document.getElementById('editPlayerImage').value  = ''
+  document.getElementById('alertEditPlayer').style.display = 'none'
+  document.getElementById('editPlayerModal').classList.add('show')
+}
+
+function closeEditPlayer() {
+  document.getElementById('editPlayerModal').classList.remove('show')
+}
+
+function previewEditImage(input) {
+  const file = input.files[0]
+  if (!file) return
+  const reader = new FileReader()
+  reader.onload = e => {
+    const img = document.getElementById('editImagePreview')
+    img.src = e.target.result
+    img.style.display = 'block'
+  }
+  reader.readAsDataURL(file)
+}
+
+async function saveEditPlayer() {
+  const id     = document.getElementById('editPlayerId').value
+  const name   = document.getElementById('editPlayerName').value.trim()
+  const rarity = document.getElementById('editPlayerRarity').value
+  const file   = document.getElementById('editPlayerImage').files[0]
+
+  if (!name) { showAlert('alertEditPlayer','error','Nama wajib diisi'); return; }
+
+  let image = ''
+  if (file) {
+    image = await new Promise(res => {
+      const reader = new FileReader()
+      reader.onload = e => res(e.target.result)
+      reader.readAsDataURL(file)
+    })
+  }
+
+  const resp = await fetch(`${API}/admin/players/${id}`, {
+    method: 'PUT',
+    headers: { 'Content-Type': 'application/json', Authorization: `Bearer ${getToken()}` },
+    body: JSON.stringify({ name, rarity, image })
+  })
+  const data = await resp.json()
+
+  if (data.error) { showAlert('alertEditPlayer','error',data.error); return; }
+  showAlert('alertEditPlayer','success','Pemain berhasil diupdate!')
+  setTimeout(() => {
+    closeEditPlayer()
+    loadPlayers()
+  }, 1000)
+}
+
+async function checkAdmin() {
+  const token = getToken()
+  if (!token) { window.location.href = '/login.html'; return; }
+
+  const res  = await fetch(`${API}/auth/me`, { headers: { Authorization: `Bearer ${token}` } })
+  const data = await res.json()
+
+  if (!['admin','developer'].includes(data.role)) {
+    alert('Akses ditolak!')
+    window.location.href = '/'
+    return
+  }
+
+  currentRole = data.role
+  document.getElementById('adminName').textContent = data.username
+  document.getElementById('adminRole').textContent = data.role
+
+  // Developer tidak bisa kelola pemain & redeem — sembunyikan tab
+  if (data.role === 'developer') {
+    switchTab('users')
+  }
+
+  // Sembunyikan opsi set admin jika role developer
+  if (data.role === 'developer') {
+    const opt = document.querySelector('#editRole option[value="admin"]')
+    if (opt) opt.remove()
+  }
+
+  loadAll()
+}
+
+function adminLogout() {
+  localStorage.removeItem('fcg_token')
+  window.location.href = '/login.html'
+}
+
+function switchTab(tab) {
+  document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'))
+  document.querySelectorAll('.panel').forEach(p => p.classList.remove('active'))
+  event?.target?.classList.add('active')
+  document.getElementById(`panel-${tab}`).classList.add('active')
+}
+
+function showAlert(id, type, msg) {
+  const el = document.getElementById(id)
+  el.className = `alert alert-${type}`
+  el.textContent = msg
+  el.style.display = 'block'
+  setTimeout(() => el.style.display = 'none', 3000)
+}
+
+function previewImage(input) {
+  const file = input.files[0]; if (!file) return
+  const reader = new FileReader()
+  reader.onload = e => {
+    const img = document.getElementById('imagePreview')
+    img.src = e.target.result; img.style.display = 'block'
+  }
+  reader.readAsDataURL(file)
+}
+
+/* ── PLAYERS ── */
+async function loadPlayers() {
+  const res  = await fetch(`${API}/admin/players`, { headers: { Authorization: `Bearer ${getToken()}` } })
+  const data = await res.json()
+  const tbody = document.getElementById('playerTable')
+  document.getElementById('statPlayers').textContent = data.players?.length || 0
+
+  if (!data.players?.length) {
+    tbody.innerHTML = '<tr><td colspan="5" style="color:#3a5a3a;text-align:center;">Belum ada pemain ditambahkan</td></tr>'
+    return
+  }
+
+  tbody.innerHTML = data.players.map(p => `
+    <tr>
+      <td style="color:#3a5a3a;">${p.id}</td>
+      <td style="font-weight:600;">${p.name}</td>
+      <td><span class="badge badge-${p.rarity.toLowerCase()}">${p.rarity}</span></td>
+      <td>${p.image ? `<img src="${p.image}" class="img-preview" style="width:40px;height:40px;">` : '—'}</td>
+      <td style="display:flex;gap:5px;">
+        <button class="btn btn-yellow btn-xs" onclick="openEditPlayer(${p.id},'${p.name}','${p.rarity}')">✏️ Edit</button>
+        <button class="btn btn-red btn-xs" onclick="deletePlayer(${p.id})">Hapus</button>
+      </td>
+    </tr>
+  `).join('')
+}
+
+async function addPlayer() {
+  const name   = document.getElementById('playerName').value.trim()
+  const rarity = document.getElementById('playerRarity').value
+  const file   = document.getElementById('playerImage').files[0]
+  if (!name) { showAlert('alertPlayer','error','Nama pemain wajib diisi'); return; }
+
+  let image = ''
+  if (file) {
+    image = await new Promise(res => {
+      const reader = new FileReader()
+      reader.onload = e => res(e.target.result)
+      reader.readAsDataURL(file)
+    })
+  }
+
+  const resp = await fetch(`${API}/admin/players`, {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json', Authorization: `Bearer ${getToken()}` },
+    body: JSON.stringify({ name, rarity, image })
+  })
+  const data = await resp.json()
+  if (data.error) { showAlert('alertPlayer','error',data.error); return; }
+  showAlert('alertPlayer','success',`Pemain ${name} berhasil ditambahkan!`)
+  document.getElementById('playerName').value = ''
+  document.getElementById('imagePreview').style.display = 'none'
+  loadPlayers()
+}
+
+async function deletePlayer(id) {
+  if (!confirm('Hapus pemain ini?')) return
+  await fetch(`${API}/admin/players/${id}`, { method: 'DELETE', headers: { Authorization: `Bearer ${getToken()}` } })
+  loadPlayers()
+}
+
+/* ── REDEEM ── */
+function toggleRedeemType() {
+  const type = document.getElementById('redeemType').value
+  document.getElementById('redeemPullsGroup').style.display  = type === 'pulls'  ? 'block' : 'none'
+  document.getElementById('redeemPlayerGroup').style.display = type === 'player' ? 'block' : 'none'
+}
+
+async function loadRedeemCodes() {
+  const res  = await fetch(`${API}/admin/redeem-codes`, { headers: { Authorization: `Bearer ${getToken()}` } })
+  const data = await res.json()
+  const tbody = document.getElementById('redeemTable')
+  document.getElementById('statCodes').textContent = data.codes?.length || 0
+
+  if (!data.codes?.length) {
+    tbody.innerHTML = '<tr><td colspan="5" style="color:#3a5a3a;text-align:center;">Belum ada kode</td></tr>'
+    return
+  }
+
+  tbody.innerHTML = data.codes.map(c => `
+    <tr>
+      <td><strong style="color:#00e664;">${c.code}</strong></td>
+      <td>${c.type}</td>
+      <td>${c.type === 'pulls' ? `${c.amount} Pull` : `Player ID: ${c.playerId}`}</td>
+      <td style="color:#aaa;">${c.description}</td>
+      <td><button class="btn btn-red btn-xs" onclick="deleteRedeemCode('${c.code}')">Hapus</button></td>
+    </tr>
+  `).join('')
+}
+
+async function addRedeemCode() {
+  const code     = document.getElementById('redeemCodeInput').value.trim()
+  const type     = document.getElementById('redeemType').value
+  const amount   = parseInt(document.getElementById('redeemAmount').value) || 0
+  const playerId = parseInt(document.getElementById('redeemPlayerId').value) || null
+  const desc     = document.getElementById('redeemDesc').value.trim()
+  if (!code) { showAlert('alertRedeem','error','Kode wajib diisi'); return; }
+
+  const resp = await fetch(`${API}/admin/redeem-codes`, {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json', Authorization: `Bearer ${getToken()}` },
+    body: JSON.stringify({ code, type, amount, playerId, description: desc })
+  })
+  const data = await resp.json()
+  if (data.error) { showAlert('alertRedeem','error',data.error); return; }
+  showAlert('alertRedeem','success',`Kode ${code} berhasil ditambahkan!`)
+  document.getElementById('redeemCodeInput').value = ''
+  document.getElementById('redeemDesc').value = ''
+  loadRedeemCodes()
+}
+
+async function deleteRedeemCode(code) {
+  if (!confirm(`Hapus kode ${code}?`)) return
+  await fetch(`${API}/admin/redeem-codes/${code}`, { method: 'DELETE', headers: { Authorization: `Bearer ${getToken()}` } })
+  loadRedeemCodes()
+}
+
+/* ── USERS ── */
+async function loadUsers() {
+  const res  = await fetch(`${API}/admin/users`, { headers: { Authorization: `Bearer ${getToken()}` } })
+  const data = await res.json()
+  const tbody = document.getElementById('userTable')
+  document.getElementById('statUsers').textContent = data.users?.length || 0
+
+  tbody.innerHTML = data.users.map(u => `
+    <tr>
+      <td style="font-weight:600;">${u.username}</td>
+      <td style="color:#aaa;">${u.email}</td>
+      <td><span class="badge badge-${u.role || 'user'}">${u.role || 'user'}</span></td>
+      <td style="color:${u.pullsLeft < 0 ? '#ff4444' : '#fff'};">${u.pullsLeft}</td>
+      <td>${u.bonusPulls}</td>
+      <td style="color:#3a5a3a;">${new Date(u.createdAt).toLocaleDateString('id-ID')}</td>
+      <td>
+        <button class="btn btn-yellow btn-xs" onclick="openEditModal('${u._id}','${u.username}','${u.role||'user'}',${u.pullsLeft},${u.bonusPulls})">
+          ✏️ Edit
+        </button>
+      </td>
+    </tr>
+  `).join('')
+}
+
+/* ── EDIT USER MODAL ── */
+function openEditModal(id, username, role, pullsLeft, bonusPulls) {
+  document.getElementById('editUserId').value      = id
+  document.getElementById('editUsername').value    = username
+  document.getElementById('editRole').value        = role
+  document.getElementById('editPullsLeft').value   = pullsLeft
+  document.getElementById('editBonusPulls').value  = bonusPulls
+  document.getElementById('alertEdit').style.display = 'none'
+  document.getElementById('editModal').classList.add('show')
+}
+
+function closeEditModal() {
+  document.getElementById('editModal').classList.remove('show')
+}
+
+async function saveEditUser() {
+  const id        = document.getElementById('editUserId').value
+  const role      = document.getElementById('editRole').value
+  const pullsLeft = document.getElementById('editPullsLeft').value
+  const bonusPulls= document.getElementById('editBonusPulls').value
+
+  const resp = await fetch(`${API}/admin/users/${id}`, {
+    method: 'PUT',
+    headers: { 'Content-Type': 'application/json', Authorization: `Bearer ${getToken()}` },
+    body: JSON.stringify({ role, pullsLeft: parseInt(pullsLeft), bonusPulls: parseInt(bonusPulls) })
+  })
+  const data = await resp.json()
+
+  if (data.error) {
+    showAlert('alertEdit','error', data.error)
+    return
+  }
+
+  showAlert('alertEdit','success','User berhasil diupdate!')
+  setTimeout(() => {
+    closeEditModal()
+    loadUsers()
+  }, 1000)
+}
+
+/* ── LOAD ALL ── */
+async function loadAll() {
+  await Promise.all([loadPlayers(), loadRedeemCodes(), loadUsers()])
+  const res  = await fetch(`${API}/admin/users`, { headers: { Authorization: `Bearer ${getToken()}` } })
+  const data = await res.json()
+  const totalCards = data.users.reduce((sum, u) => sum + (u.serialCounter || 0), 0)
+  document.getElementById('statCards').textContent = totalCards
+}
+
+checkAdmin()
+
+</script>
+<div class="modal-backdrop" id="editPlayerModal">
+  <div class="modal-box">
+    <h3>✏️ Edit Pemain</h3>
+    <input type="hidden" id="editPlayerId">
+    <div class="form-group">
+      <label>Nama Pemain</label>
+      <input type="text" id="editPlayerName">
+    </div>
+    <div class="form-group">
+      <label>Rarity</label>
+      <select id="editPlayerRarity">
+        <option value="Common">● Common</option>
+        <option value="Uncommon">🍀 Uncommon</option>
+        <option value="Rare">💎 Rare</option>
+        <option value="Epic">✦ Epic</option>
+        <option value="Mythic">🔥 Mythic</option>
+        <option value="Secret">☄️ Secret</option>
+        <option value="Heritage">👑 Heritage</option>
+      </select>
+    </div>
+    <div class="form-group">
+      <label>Foto Baru (kosongkan jika tidak ingin ganti)</label>
+      <input type="file" id="editPlayerImage" accept="image/*" onchange="previewEditImage(this)">
+      <img id="editImagePreview" class="img-preview" style="display:none;margin-top:8px;">
+    </div>
+    <div id="alertEditPlayer" class="alert"></div>
+    <div class="modal-actions">
+      <button class="btn btn-outline" onclick="closeEditPlayer()">Batal</button>
+      <button class="btn btn-green" onclick="saveEditPlayer()">Simpan</button>
+    </div>
+  </div>
+</div>
+</body>
+</html>

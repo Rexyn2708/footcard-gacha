@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FootCard Gacha — Football Card Collection</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Rajdhani:wght@600;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar" id="navbar">
+  <span class="navbar-brand">FOOT<span class="brand-accent">CARD</span> GACHA</span>
+  <ul class="navbar-menu" id="navMenu">
+    <li><a href="#" class="nav-link active" data-page="home"><span class="nav-icon">🏠</span> Home</a></li>
+    <li><a href="#" class="nav-link" data-page="inventory"><span class="nav-icon">📦</span> Inventory</a></li>
+    <li><a href="#" class="nav-link" data-page="allplayer"><span class="nav-icon">👥</span> All Player</a></li>
+    <li><a href="#" class="nav-link" data-page="redeem"><span class="nav-icon">🎁</span> Redeem</a></li>
+    <li><a href="#" class="nav-link" data-page="settings"><span class="nav-icon">⚙️</span> Settings</a></li>
+    <li id="adminMenuItem" style="display:none">
+      <a href="/admin.html" class="nav-link nav-link-admin"><span class="nav-icon">🛡️</span> Admin</a>
+    </li>
+  </ul>
+  <div class="user-area">
+    <div class="user-chip" id="userChip">
+      <div class="user-avatar" id="userAvatar">U</div>
+      <div class="user-info">
+        <span class="user-name" id="userName">user</span>
+        <span class="user-role" id="userRole">Member</span>
+      </div>
+    </div>
+    <button class="btn-logout" id="btnLogout">🚪 Logout</button>
+  </div>
+  <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+    <span></span><span></span><span></span>
+  </button>
+</nav>
+
+<!-- TICKER -->
+<div class="ticker">
+  <span class="ticker-label">LIVE</span>
+  <div class="ticker-track">
+    <div class="ticker-inner" id="tickerInner">
+      <span class="ticker-item">🏆 testuser dapat Pelé Heritage!</span>
+      <span class="ticker-item">🔥 user2 dapat Kylian Mbappé Mythic!</span>
+      <span class="ticker-item">⚽ 98 pemain tersedia · 7 rarity tier</span>
+      <span class="ticker-item">🎁 Gunakan kode LEGENDARY untuk +5 pull!</span>
+      <span class="ticker-item">👑 user3 dapat Diego Maradona Heritage!</span>
+      <span class="ticker-item">☄️ admin dapat Lionel Messi Secret!</span>
+      <span class="ticker-item">🏆 testuser dapat Pelé Heritage!</span>
+      <span class="ticker-item">🔥 user2 dapat Kylian Mbappé Mythic!</span>
+      <span class="ticker-item">⚽ 98 pemain tersedia · 7 rarity tier</span>
+      <span class="ticker-item">🎁 Gunakan kode LEGENDARY untuk +5 pull!</span>
+    </div>
+  </div>
+</div>
+
+<!-- PAGE: HOME -->
+<main class="page active" id="page-home">
+
+  <!-- Hero -->
+  <section class="hero-banner">
+    <div class="hero-inner">
+      <div>
+        <div class="hero-eyebrow">Ultimate Football Card Collection</div>
+        <h1 class="hero-title">Pull Your <span class="title-gold">Legend</span></h1>
+        <p class="hero-sub">7 Rarity Tiers · 98 Players · Daily Pulls</p>
+      </div>
+      <div class="stats-row">
+        <div class="stat-box">
+          <div class="stat-number green" id="pullsRemaining">3</div>
+          <div class="stat-label">Pull Tersisa</div>
+        </div>
+        <div class="stat-box">
+          <div class="stat-number orange" id="progressOwned">0</div>
+          <div class="stat-label">Kartu Dimiliki</div>
+        </div>
+        <div class="stat-box">
+          <div class="stat-number blue" id="countdownTimer">—</div>
+          <div class="stat-label">Reset Timer</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Home Grid -->
+  <div class="home-grid">
+
+    <!-- LEFT: Pull + Cards + Rates -->
+    <div>
+
+      <!-- Pull Zone -->
+      <div class="pull-zone">
+        <div class="gacha-machine" id="gachaMachine">
+          <div class="machine-orb">
+            <div class="orb-ring r2"></div>
+            <div class="orb-ring"></div>
+            <div class="orb-inner" id="mainOrb">
+              <div class="orb-shine"></div>
+              <span class="orb-icon">⚽</span>
+            </div>
+          </div>
+          <button class="btn-pull" id="btnPull">
+            <span class="btn-pull-icon">🎴</span>
+            <span>PULL × 5</span>
+          </button>
+          <p style="font-size:11px;color:#2a4a2a;margin-top:8px;">Klik bola atau tombol untuk menarik 5 kartu</p>
+        </div>
+
+        <!-- Reveal Area -->
+        <div class="reveal-area hidden" id="revealArea">
+          <div class="reveal-cards" id="revealCards"></div>
+          <p class="reveal-hint" id="revealHint">Klik kartu untuk membuka!</p>
+        </div>
+      </div>
+
+      <!-- Rates Section -->
+      <div class="rates-section">
+        <div class="section-title">Persentase Rarity</div>
+        <div id="ratesGrid"></div>
+      </div>
+    </div>
+
+    <!-- RIGHT: Sidebar -->
+    <div class="home-sidebar">
+
+      <!-- Progress -->
+      <div class="sidebar-card">
+        <div class="section-title">Progress Koleksi</div>
+        <div class="prog-numbers">
+          <span class="prog-big" id="progOwned">0</span>
+          <span class="prog-total">/ <span id="progressTotal">98</span> pemain</span>
+        </div>
+        <div class="progress-bar-track">
+          <div class="progress-bar-fill" id="progressBarFill" style="width:0%"></div>
+        </div>
+        <span class="prog-label" id="progLabel">0% koleksi terkumpul</span>
+      </div>
+
+      <!-- Recent History -->
+      <div class="sidebar-card">
+        <div class="section-header">
+          <div class="section-title" style="margin-bottom:0">Pull Terbaru</div>
+          <button class="btn-text" id="btnSeeAllHistory">Lihat semua →</button>
+        </div>
+        <div class="history-list" id="homeHistoryList">
+          <div class="history-empty">Belum ada pull. Lakukan Pull pertamamu!</div>
+        </div>
+      </div>
+
+      <!-- Redeem Quick -->
+      <div class="sidebar-card">
+        <div class="section-title">Redeem Code</div>
+        <div class="redeem-row">
+          <input type="text" class="redeem-input" id="redeemCodeHome" placeholder="Masukkan kode...">
+          <button class="btn-redeem" id="btnRedeemHome">REDEEM</button>
+        </div>
+        <div class="redeem-result hidden" id="redeemResultHome"></div>
+      </div>
+
+      <!-- Leaderboard -->
+      <div class="sidebar-card">
+        <div class="section-title">Top Kolektor</div>
+        <div id="leaderboard">
+          <div class="lb-item first">
+            <span class="lb-rank" style="color:#00e664;">1</span>
+            <div class="lb-info"><div class="lb-name">—</div><div class="lb-count">— kartu unik</div></div>
+            <span class="lb-medal">🥇</span>
+          </div>
+          <div class="lb-item">
+            <span class="lb-rank" style="color:#3a5a3a;">2</span>
+            <div class="lb-info"><div class="lb-name" style="color:#aaa;">—</div><div class="lb-count">— kartu unik</div></div>
+            <span class="lb-medal">🥈</span>
+          </div>
+          <div class="lb-item">
+            <span class="lb-rank" style="color:#3a5a3a;">3</span>
+            <div class="lb-info"><div class="lb-name" style="color:#aaa;">—</div><div class="lb-count">— kartu unik</div></div>
+            <span class="lb-medal">🥉</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+</main>
+
+<!-- PAGE: INVENTORY -->
+<main class="page hidden" id="page-inventory">
+  <div class="page-header">
+    <h1 class="page-title">📦 Inventory</h1>
+    <p class="page-sub">Koleksi seluruh kartu yang pernah kamu dapatkan</p>
+  </div>
+  <div class="inventory-controls">
+    <input type="text" class="search-input" id="inventorySearch" placeholder="🔍 Cari nama pemain..." />
+    <div class="filter-row">
+      <select class="select-input" id="inventoryFilterRarity">
+        <option value="all">Semua Rarity</option>
+        <option value="Heritage">👑 Heritage</option>
+        <option value="Secret">☄️ Secret</option>
+        <option value="Mythic">🔥 Mythic</option>
+        <option value="Epic">✦ Epic</option>
+        <option value="Rare">💎 Rare</option>
+        <option value="Uncommon">🍀 Uncommon</option>
+        <option value="Common">● Common</option>
+      </select>
+      <select class="select-input" id="inventorySort">
+        <option value="newest">Terbaru</option>
+        <option value="oldest">Terlama</option>
+        <option value="rarity-desc">Rarity Tertinggi</option>
+        <option value="rarity-asc">Rarity Terendah</option>
+        <option value="serial">Nomor Seri</option>
+      </select>
+    </div>
+  </div>
+  <div class="cards-grid" id="inventoryGrid">
+    <div class="empty-state">
+      <div class="empty-icon">📭</div>
+      <p>Belum ada kartu di inventory.<br>Lakukan Pull untuk memulai koleksi!</p>
+    </div>
+  </div>
+</main>
+
+<!-- PAGE: ALL PLAYER -->
+<main class="page hidden" id="page-allplayer">
+  <div class="page-header">
+    <h1 class="page-title">👥 All Player</h1>
+    <p class="page-sub">Semua pemain yang tersedia di mesin gacha</p>
+  </div>
+  <div id="allPlayerContent"></div>
+</main>
+
+<!-- PAGE: REDEEM -->
+<main class="page hidden" id="page-redeem">
+  <div class="page-header">
+    <h1 class="page-title">🎁 Redeem Code</h1>
+    <p class="page-sub">Masukkan kode untuk mendapatkan hadiah eksklusif</p>
+  </div>
+  <div class="redeem-zone" style="display:grid;grid-template-columns:1fr 1fr;gap:20px;align-items:start;">
+
+    <div class="redeem-card">
+      <div class="redeem-icon-big">🎫</div>
+      <div class="redeem-input-group">
+        <input type="text" class="redeem-input" id="redeemCode" placeholder="Masukkan kode di sini..." autocomplete="off" />
+        <button class="btn-redeem" id="btnRedeem">REDEEM</button>
+      </div>
+      <div class="redeem-result hidden" id="redeemResult"></div>
+      <div class="redeem-hints" style="margin-top:16px;">
+        <h3>💡 Tips</h3>
+        <ul>
+          <li>Kode tidak case-sensitive</li>
+          <li>Setiap kode hanya bisa digunakan sekali</li>
+          <li>Hadiah langsung masuk ke akunmu</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="redeem-hints" style="text-align:center;">
+      <h3>💬 Akses Discord Premium</h3>
+      <p style="color:#aaa;font-size:13px;margin:10px 0;">
+        Scan QRIS di bawah untuk bayar akses premium. Kode redeem eksklusif dibagikan lewat bot di Discord server kami.
+      </p>
+
+      <img src="assets/qris.png" alt="QRIS" style="width:200px;height:200px;border-radius:8px;margin:12px auto;display:block;" />
+
+      <p style="font-size:14px;font-weight:700;color:#00e664;margin-bottom:12px;">Rp 150.000</p>
+
+      <button class="btn-redeem" id="btnBayar" style="width:100%;">Saya Sudah Bayar</button>
+
+      <a href="https://discord.gg/cVnVFpDD2" target="_blank" id="btnJoinDiscord"
+         style="display:none;text-align:center;background:#5865F2;color:#fff;padding:10px;border-radius:8px;text-decoration:none;font-weight:700;font-size:13px;margin-top:10px;">
+        🎮 Join Discord Server
+      </a>
+    </div>
+
+  </div>
+</main>
+
+<!-- PAGE: SETTINGS -->
+<main class="page hidden" id="page-settings">
+  <div class="page-header">
+    <h1 class="page-title">⚙️ Settings</h1>
+    <p class="page-sub">Kelola data dan preferensi kamu</p>
+  </div>
+  <div class="settings-grid">
+    <div class="settings-card">
+      <div class="settings-card-icon">📤</div>
+      <h3>Export Data</h3>
+      <p>Simpan seluruh progres ke file terenkripsi dengan PIN.</p>
+      <button class="btn-setting btn-export" id="btnExport">Export Progres</button>
+    </div>
+    <div class="settings-card">
+      <div class="settings-card-icon">📥</div>
+      <h3>Import Data</h3>
+      <p>Pulihkan progres dari file export dengan PIN.</p>
+      <button class="btn-setting btn-import" id="btnImport">Import Progres</button>
+      <input type="file" id="importFileInput" accept=".fcg" style="display:none" />
+    </div>
+    <div class="settings-card settings-card-danger">
+      <div class="settings-card-icon">🗑️</div>
+      <h3>Reset Progress</h3>
+      <p>Hapus seluruh data. <strong>Tidak dapat dikembalikan.</strong></p>
+      <button class="btn-setting btn-danger" id="btnReset">Hapus Semua Progress</button>
+    </div>
+  </div>
+</main>
+
+<!-- MODALS -->
+<div class="modal-overlay hidden" id="modalCardDetail">
+  <div class="modal modal-card-detail">
+    <button class="modal-close" id="closeCardDetail">✕</button>
+    <div class="modal-card-visual" id="detailCardVisual"></div>
+    <div class="modal-card-info" id="detailCardInfo"></div>
+  </div>
+</div>
+
+<div class="modal-overlay hidden" id="modalPlayerHistory">
+  <div class="modal modal-player-history">
+    <button class="modal-close" id="closePlayerHistory">✕</button>
+    <div id="playerHistoryContent"></div>
+  </div>
+</div>
+
+<div class="modal-overlay hidden" id="modalPinCreate">
+  <div class="modal modal-pin">
+    <h2 class="modal-title">🔐 Buat PIN Export</h2>
+    <p class="modal-desc">PIN digunakan untuk melindungi file export kamu.</p>
+    <input type="password" class="pin-input" id="pinCreateInput" placeholder="Masukkan PIN (4-8 digit)" maxlength="8" />
+    <input type="password" class="pin-input" id="pinConfirmInput" placeholder="Konfirmasi PIN" maxlength="8" />
+    <div class="pin-error hidden" id="pinCreateError"></div>
+    <div class="modal-actions">
+      <button class="btn-modal btn-cancel" id="cancelPinCreate">Batal</button>
+      <button class="btn-modal btn-confirm" id="confirmPinCreate">Buat & Export</button>
+    </div>
+  </div>
+</div>
+
+<div class="modal-overlay hidden" id="modalPinImport">
+  <div class="modal modal-pin">
+    <h2 class="modal-title">🔑 Masukkan PIN Import</h2>
+    <p class="modal-desc">Masukkan PIN yang kamu buat saat melakukan export.</p>
+    <input type="password" class="pin-input" id="pinImportInput" placeholder="Masukkan PIN" maxlength="8" />
+    <div class="pin-error hidden" id="pinImportError"></div>
+    <div class="modal-actions">
+      <button class="btn-modal btn-cancel" id="cancelPinImport">Batal</button>
+      <button class="btn-modal btn-confirm" id="confirmPinImport">Import</button>
+    </div>
+  </div>
+</div>
+
+<div class="modal-overlay hidden" id="modalConfirmReset">
+  <div class="modal modal-confirm">
+    <div class="confirm-icon">⚠️</div>
+    <h2 class="modal-title">Hapus Semua Progress?</h2>
+    <p class="modal-desc">Semua data akan dihapus permanen.<br><strong>Tidak dapat dikembalikan.</strong></p>
+    <div class="modal-actions">
+      <button class="btn-modal btn-cancel" id="cancelReset">Batal</button>
+      <button class="btn-modal btn-danger" id="confirmReset">Ya, Hapus Semua</button>
+    </div>
+  </div>
+</div>
+
+<!-- PULL OVERLAY ANIMATION -->
+<div class="pull-overlay hidden" id="pullOverlay">
+  <div class="pull-particles" id="pullParticles"></div>
+  <div class="pull-anim-content">
+    <div class="pull-big-orb">⚽</div>
+    <div class="pull-anim-text" id="pullAnimText">Menarik kartu...</div>
+  </div>
+</div>
+
+<!-- TOAST -->
+<div class="toast hidden" id="toast">
+  <span class="toast-icon" id="toastIcon">✅</span>
+  <span class="toast-msg" id="toastMsg"></span>
+</div>
+
+<!-- FULLSCREEN -->
+<div class="fullscreen-overlay hidden" id="fullscreenOverlay">
+  <button class="fullscreen-close" id="fullscreenClose">✕</button>
+  <img class="fullscreen-img" id="fullscreenImg" src="" alt="Player" />
+</div>
+
+<script src="api.js"></script>
+<script>
+  checkAuth();
+
+  document.getElementById('btnLogout').addEventListener('click', function(e) {
+    e.preventDefault();
+    logout();
+  });
+
+  async function checkAdminMenu() {
+    const token = localStorage.getItem('fcg_token');
+    if (!token) return;
+    try {
+      const res  = await fetch(`${API_URL}/auth/me`, {
+        headers: { Authorization: `Bearer ${token}` }
+      });
+      const data = await res.json();
+      if (data.role === 'admin' || data.role === 'developer') {
+        document.getElementById('adminMenuItem').style.display = 'block';
+      }
+      if (data.username) {
+        document.getElementById('userName').textContent = data.username;
+        document.getElementById('userAvatar').textContent = data.username[0].toUpperCase();
+      }
+    } catch {}
+  }
+
+  checkAdminMenu();
+
+  /* ── PAYMENT ── */
+  document.getElementById('btnBayar').addEventListener('click', () => {
+    document.getElementById('btnBayar').style.display = 'none';
+    document.getElementById('btnJoinDiscord').style.display = 'block';
+  });
+</script>
+<script src="script.js"></script>
+
+</body>
+</html>

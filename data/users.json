@@ -1,0 +1,56 @@
+[
+  {
+    "_id": "6a408d8f5b25da323f297d93",
+    "username": "testuser",
+    "email": "test@gmail.com",
+    "password": "$2b$12$t8KvLvs8KjSA6OOj/CxgDOooQu.CLe2GlqE5MZmdbMeQUWCNf/Wt2",
+    "pullsLeft": 5,
+    "bonusPulls": 0,
+    "lastPullTime": "2026-06-28T02:59:49.632000",
+    "serialCounter": 8,
+    "redeemUsed": [
+      "WELCOME2025"
+    ],
+    "createdAt": "2026-06-28T02:57:19.337000",
+    "role": "user"
+  },
+  {
+    "_id": "6a4094918f1f8d428376d6a3",
+    "username": "admin",
+    "email": "admin@gmail.com",
+    "password": "$2b$12$hXpwaLvAKM7.qLUbNGzHwuUdwbJuyOGbNieHMQ2/ayt7Cb7EMTM12",
+    "pullsLeft": 255,
+    "bonusPulls": 0,
+    "lastPullTime": "2026-07-22T06:50:05.961000",
+    "serialCounter": 240,
+    "redeemUsed": [],
+    "createdAt": "2026-06-28T03:27:13.532000",
+    "role": "developer"
+  },
+  {
+    "_id": "6a460c124cd70a076d1dfbb8",
+    "username": "Biyan",
+    "email": "biyan@gmail.com",
+    "password": "$2b$12$8Z4IYZl5EKCBtquNqoOUZ.y515XrPGBH9sNb2Bg43BiGPDyHHaA/2",
+    "role": "user",
+    "pullsLeft": 0,
+    "bonusPulls": 0,
+    "lastPullTime": "2026-07-22T06:52:04.307000",
+    "serialCounter": 250,
+    "redeemUsed": [],
+    "createdAt": "2026-07-02T06:58:26.509000"
+  },
+  {
+    "_id": "6a56f05589cbca7628de6f81",
+    "username": "Developer",
+    "email": "Dev@gmail.com",
+    "password": "$2b$12$FNuqspNIVFUdYQzvxR7xR.jxOSWrhh3/jl1JTYd29EibhJ5nSiL2a",
+    "role": "developer",
+    "pullsLeft": 9999,
+    "bonusPulls": 810,
+    "lastPullTime": "2026-07-22T06:50:27.705000",
+    "serialCounter": 245,
+    "redeemUsed": [],
+    "createdAt": "2026-07-15T02:28:37.738000"
+  }
+]
